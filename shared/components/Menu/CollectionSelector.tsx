@@ -17,9 +17,9 @@ import {
   N1VocabLength
 } from '@/shared/lib/unitSets';
 import { useClick } from '@/shared/hooks/useAudio';
-import { CircleCheck, Trash } from 'lucide-react';
 import { ActionButton } from '@/shared/components/ui/ActionButton';
 import { useMemo } from 'react';
+import SelectionStatusBar from '@/shared/components/Menu/SelectionStatusBar';
 
 type CollectionLevel = 'n5' | 'n4' | 'n3' | 'n2' | 'n1';
 type ContentType = 'kanji' | 'vocabulary';
@@ -55,7 +55,6 @@ const CollectionSelector = () => {
   const {
     selectedKanjiCollection,
     setSelectedKanjiCollection,
-    selectedKanjiSets,
     clearKanjiObjs,
     clearKanjiSets
   } = useKanjiStore();
@@ -64,7 +63,6 @@ const CollectionSelector = () => {
   const {
     selectedVocabCollection,
     setSelectedVocabCollection,
-    selectedVocabSets,
     clearVocabObjs,
     clearVocabSets
   } = useVocabStore();
@@ -76,19 +74,7 @@ const CollectionSelector = () => {
   const setSelectedCollection = isKanji
     ? setSelectedKanjiCollection
     : setSelectedVocabCollection;
-  const selectedSets = isKanji ? selectedKanjiSets : selectedVocabSets;
   const sets = isKanji ? KANJI_SETS : VOCAB_SETS;
-
-  const handleClear = () => {
-    playClick();
-    if (isKanji) {
-      clearKanjiSets();
-      clearKanjiObjs();
-    } else {
-      clearVocabSets();
-      clearVocabObjs();
-    }
-  };
 
   const handleCollectionSelect = (level: CollectionLevel) => {
     playClick();
@@ -125,7 +111,7 @@ const CollectionSelector = () => {
   return (
     <div className='flex flex-col'>
       {/* Modern Toggle-Style Unit Selector */}
-      <div className='flex rounded-tl-2xl rounded-tr-2xl bg-[var(--card-color)] border-b-1 border-[var(--border-color)] p-4 gap-4 flex-col md:flex-row'>
+      <div className='flex rounded-2xl bg-[var(--card-color)] p-4 gap-4 flex-col md:flex-row'>
         {collections.map(collection => {
           const isSelected = collection.name === selectedCollection;
 
@@ -169,43 +155,8 @@ const CollectionSelector = () => {
         })}
       </div>
 
-      {/* Selected Sets Info & Clear Button */}
-      <div
-        className={clsx(
-          'bg-[var(--card-color)] p-4 rounded-bl-2xl rounded-br-2xl',
-          'w-full text-lg flex flex-col gap-2 items-start'
-        )}
-      >
-        <div className='flex flex-col'>
-          <span className='flex gap-2 items-center'>
-            <CircleCheck className='text-[var(--secondary-color)]' />
-            Selected Levels:
-          </span>
-          <span className='text-[var(--secondary-color)]'>
-            {selectedSets.length > 0
-              ? selectedSets
-                  .sort((a, b) => {
-                    const numA = parseInt(a.replace('Set ', ''));
-                    const numB = parseInt(b.replace('Set ', ''));
-                    return numA - numB;
-                  })
-                  .join(', ')
-                  .replace(/Set /g, 'Level ')
-              : 'None'}
-          </span>
-        </div>
-
-        <ActionButton
-          colorScheme='secondary'
-          borderColorScheme='secondary'
-          borderBottomThickness={8}
-          className='py-3 px-16 bg-[var(--secondary-color)]/80'
-          onClick={handleClear}
-          aria-label='Clear selected levels'
-        >
-          <Trash size={32} />
-        </ActionButton>
-      </div>
+      {/* Selection Status Bar - Fixed at top */}
+      <SelectionStatusBar />
     </div>
   );
 };

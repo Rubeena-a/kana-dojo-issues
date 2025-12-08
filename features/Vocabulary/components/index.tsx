@@ -393,7 +393,7 @@ const VocabCards = () => {
                       <button
                         className={clsx(
                           'text-2xl flex justify-center items-center gap-2 group',
-                          'rounded-xl  hover:cursor-pointer',
+                          'rounded-2xl  hover:cursor-pointer',
                           'duration-250 transition-all ease-in-out',
                           'px-2 py-3 max-md:mx-4 border-b-6',
                           isSelected

@@ -60,7 +60,7 @@ export default function BackToTop() {
     <button
       onClick={handleClick}
       className={clsx(
-        'fixed z-[60] top-2 right-2 lg:right-7',
+        'fixed z-[60] top-20 right-2 lg:right-3',
         'max-md:border-2 border-[var(--border-color)]',
         'inline-flex items-center justify-center rounded-full ',
         'p-2 md:p-3 shadow-lg transition-all duration-200 ',
