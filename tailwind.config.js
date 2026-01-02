@@ -20,10 +20,15 @@ export default {
         aurora: {
           '0%, 100%': { backgroundPosition: '0% 50%' },
           '50%': { backgroundPosition: '100% 50%' }
+        },
+        shimmer: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(100%)' }
         }
       },
       animation: {
-        aurora: 'aurora 6s ease-in-out infinite'
+        aurora: 'aurora 6s ease-in-out infinite',
+        shimmer: 'shimmer 2s infinite'
       }
     }
   },

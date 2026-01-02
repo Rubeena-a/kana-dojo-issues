@@ -1,12 +1,13 @@
 'use client';
 
 import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/shared/lib/utils';
 import { Clock, Target, Zap, Trophy } from 'lucide-react';
 import type { TimedModeStats, ContentType } from '../../types/stats';
 
 /**
- * Props for the TimedModeStatsPanel component
+ * Props for the BlitzStatsPanel component
  */
 export interface TimedModeStatsPanelProps {
   /** Kana timed mode stats */
@@ -25,38 +26,63 @@ export interface TimedModeStatsPanelProps {
 const CONTENT_TABS: { value: ContentType; label: string }[] = [
   { value: 'kana', label: 'Kana' },
   { value: 'kanji', label: 'Kanji' },
-  { value: 'vocabulary', label: 'Vocabulary' }
+  { value: 'vocabulary', label: 'Vocab' }
 ];
 
 /**
- * Individual stat item component
+ * Individual stat item - color transitions only
  */
 function StatItem({
   icon: Icon,
   label,
   value,
-  subValue
+  subValue,
+  index
 }: {
   icon: typeof Clock;
   label: string;
   value: string | number;
   subValue?: string;
+  index: number;
 }) {
   return (
-    <div className='flex items-center gap-3 rounded-lg bg-[var(--background-color)] p-3'>
-      <div className='flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-[var(--card-color)]'>
-        <Icon className='h-5 w-5 text-[var(--main-color)]' />
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3, delay: index * 0.05 }}
+      className={cn(
+        'group/item cursor-pointer rounded-2xl p-4',
+        'bg-[var(--background-color)]',
+        'border border-transparent',
+        'transition-colors duration-300',
+        'hover:border-[var(--main-color)]/20'
+      )}
+    >
+      <div className='flex items-center gap-4'>
+        <div
+          className={cn(
+            'flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl',
+            'bg-gradient-to-br from-[var(--main-color)]/10 to-[var(--secondary-color)]/5',
+            'text-[var(--main-color)]',
+            'transition-colors duration-300',
+            'group-hover/item:from-[var(--main-color)]/15 group-hover/item:to-[var(--secondary-color)]/10'
+          )}
+        >
+          <Icon className='h-5 w-5' />
+        </div>
+        <div className='min-w-0 flex-1'>
+          <p className='text-xs font-medium text-[var(--secondary-color)]'>
+            {label}
+          </p>
+          <p className='text-xl font-black text-[var(--main-color)]'>{value}</p>
+          {subValue && (
+            <p className='text-xs text-[var(--secondary-color)]/60'>
+              {subValue}
+            </p>
+          )}
+        </div>
       </div>
-      <div className='min-w-0 flex-1'>
-        <p className='text-xs text-[var(--secondary-color)]'>{label}</p>
-        <p className='text-lg font-semibold text-[var(--main-color)]'>
-          {value}
-        </p>
-        {subValue && (
-          <p className='text-xs text-[var(--secondary-color)]'>{subValue}</p>
-        )}
-      </div>
-    </div>
+    </motion.div>
   );
 }
 
@@ -68,27 +94,45 @@ function ContentTypeStats({ stats }: { stats: TimedModeStats }) {
 
   if (!hasData) {
     return (
-      <div className='py-8 text-center text-[var(--secondary-color)]'>
-        <p>No timed mode data yet.</p>
-        <p className='mt-1 text-sm'>
-          Start a timed challenge to see your stats!
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className='flex flex-col items-center justify-center py-16 text-center'
+      >
+        <div className='mb-4 text-6xl opacity-30'>⏱️</div>
+        <p className='text-[var(--secondary-color)]'>No Blitz data yet</p>
+        <p className='text-sm text-[var(--secondary-color)]/60'>
+          Start a Blitz challenge to see stats!
         </p>
-      </div>
+      </motion.div>
     );
   }
 
+  const statItems = [
+    { icon: Target, label: 'Correct', value: stats.correct },
+    { icon: Clock, label: 'Wrong', value: stats.wrong },
+    { icon: Zap, label: 'Streak', value: stats.streak },
+    { icon: Trophy, label: 'Best', value: stats.bestStreak }
+  ];
+
   return (
-    <div className='grid grid-cols-1 gap-3 sm:grid-cols-2'>
-      <StatItem icon={Target} label='Correct Answers' value={stats.correct} />
-      <StatItem icon={Clock} label='Wrong Answers' value={stats.wrong} />
-      <StatItem icon={Zap} label='Current Streak' value={stats.streak} />
-      <StatItem icon={Trophy} label='Best Streak' value={stats.bestStreak} />
-      <div className='sm:col-span-2'>
+    <div className='grid grid-cols-2 gap-3'>
+      {statItems.map((item, idx) => (
+        <StatItem
+          key={item.label}
+          icon={item.icon}
+          label={item.label}
+          value={item.value}
+          index={idx}
+        />
+      ))}
+      <div className='col-span-2'>
         <StatItem
           icon={Target}
           label='Accuracy'
           value={`${stats.accuracy.toFixed(1)}%`}
           subValue={`${stats.correct} / ${stats.correct + stats.wrong} correct`}
+          index={4}
         />
       </div>
     </div>
@@ -96,14 +140,11 @@ function ContentTypeStats({ stats }: { stats: TimedModeStats }) {
 }
 
 /**
- * TimedModeStatsPanel Component
+ * BlitzStatsPanel Component
  *
- * Displays timed mode statistics for Kana, Kanji, and Vocabulary
- * with tabs to switch between content types.
- *
- * @requirements 3.1-3.5
+ * Premium panel with pill tabs and bold stats.
  */
-export default function TimedModeStatsPanel({
+export default function BlitzStatsPanel({
   kanaStats,
   kanjiStats,
   vocabularyStats,
@@ -120,48 +161,77 @@ export default function TimedModeStatsPanel({
   const currentStats = statsMap[activeTab];
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.4 }}
       className={cn(
-        'rounded-2xl border border-[var(--border-color)] bg-[var(--card-color)] p-4',
+        'group relative overflow-hidden rounded-3xl',
+        'border border-[var(--border-color)]/50 bg-[var(--card-color)]',
+        'p-6',
         className
       )}
     >
-      <div className='flex flex-col gap-4'>
-        {/* Header */}
-        <div className='flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between'>
-          <h3 className='text-lg font-semibold text-[var(--main-color)]'>
-            Timed Mode Stats
-          </h3>
+      {/* Decorative gradient */}
+      <div className='pointer-events-none absolute -right-16 -bottom-16 h-48 w-48 rounded-full bg-gradient-to-br from-[var(--main-color)]/5 to-transparent' />
 
-          {/* Content Type Tabs */}
-          <div className='flex gap-1 rounded-lg bg-[var(--background-color)] p-1'>
+      <div className='relative z-10 flex flex-col gap-6'>
+        {/* Header */}
+        <div className='flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between'>
+          <div>
+            <h3 className='text-2xl font-black text-[var(--main-color)]'>
+              Blitz
+            </h3>
+            <p className='text-sm text-[var(--secondary-color)]/70'>
+              Speed challenge stats
+            </p>
+          </div>
+
+          {/* Pill tabs */}
+          <div className='flex gap-1 rounded-full bg-[var(--background-color)] p-1'>
             {CONTENT_TABS.map(tab => (
               <button
                 key={tab.value}
                 onClick={() => setActiveTab(tab.value)}
                 className={cn(
-                  'rounded-md px-3 py-1.5 text-sm transition-colors',
+                  'relative cursor-pointer rounded-full px-5 py-2 text-sm font-semibold transition-colors duration-300',
                   activeTab === tab.value
-                    ? 'bg-[var(--card-color)] font-medium text-[var(--main-color)] shadow-sm'
-                    : 'text-[var(--secondary-color)] hover:text-[var(--main-color)]'
+                    ? 'text-[var(--main-color)]'
+                    : 'text-[var(--secondary-color)]/70 hover:text-[var(--main-color)]'
                 )}
               >
-                {tab.label}
+                {activeTab === tab.value && (
+                  <motion.div
+                    layoutId='activeTimedTab'
+                    className='absolute inset-0 rounded-full bg-[var(--card-color)] shadow-sm'
+                    transition={{ type: 'spring', bounce: 0.15, duration: 0.5 }}
+                  />
+                )}
+                <span className='relative z-10'>{tab.label}</span>
               </button>
             ))}
           </div>
         </div>
 
-        {/* Stats Content */}
-        <ContentTypeStats stats={currentStats} />
+        {/* Stats content */}
+        <AnimatePresence mode='wait'>
+          <motion.div
+            key={activeTab}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+          >
+            <ContentTypeStats stats={currentStats} />
+          </motion.div>
+        </AnimatePresence>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
 /**
- * Helper function to render timed mode stats for testing
- * Returns an object with all the values that should be displayed
+ * Helper function for testing
  */
 export function getTimedModeDisplayValues(stats: TimedModeStats): {
   correct: number;

@@ -14,10 +14,10 @@ export {
 export type { CharacterMasteryPanelProps } from './CharacterMasteryPanel';
 
 export {
-  default as TimedModeStatsPanel,
+  default as BlitzStatsPanel,
   getTimedModeDisplayValues
 } from './TimedModeStatsPanel';
-export type { TimedModeStatsPanelProps } from './TimedModeStatsPanel';
+export type { TimedModeStatsPanelProps as BlitzStatsPanelProps } from './TimedModeStatsPanel';
 
 export {
   default as GauntletStatsPanel,

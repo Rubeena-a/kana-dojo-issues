@@ -1,5 +1,6 @@
 'use client';
 
+import { motion } from 'framer-motion';
 import { cn } from '@/shared/lib/utils';
 import {
   Trophy,
@@ -40,52 +41,80 @@ function formatTime(ms: number | null): string {
 }
 
 /**
- * Individual stat item component
+ * Individual stat item - color transitions only
  */
 function StatItem({
   icon: Icon,
   label,
   value,
-  subValue
+  subValue,
+  index
 }: {
   icon: typeof Trophy;
   label: string;
   value: string | number;
   subValue?: string;
+  index: number;
 }) {
   return (
-    <div className='flex items-center gap-3 rounded-lg bg-[var(--background-color)] p-3'>
-      <div className='flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--card-color)]'>
-        <Icon className='h-5 w-5 text-[var(--main-color)]' />
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3, delay: index * 0.05 }}
+      className={cn(
+        'group/item cursor-pointer rounded-2xl p-4',
+        'bg-[var(--background-color)]',
+        'border border-transparent',
+        'transition-colors duration-300',
+        'hover:border-[var(--main-color)]/20'
+      )}
+    >
+      <div className='flex items-center gap-4'>
+        <div
+          className={cn(
+            'flex h-12 w-12 shrink-0 items-center justify-center rounded-xl',
+            'bg-gradient-to-br from-[var(--main-color)]/10 to-[var(--secondary-color)]/5',
+            'text-[var(--main-color)]',
+            'transition-colors duration-300',
+            'group-hover/item:from-[var(--main-color)]/15 group-hover/item:to-[var(--secondary-color)]/10'
+          )}
+        >
+          <Icon className='h-5 w-5' />
+        </div>
+        <div className='min-w-0 flex-1'>
+          <p className='text-xs font-medium text-[var(--secondary-color)]'>
+            {label}
+          </p>
+          <p className='text-xl font-black text-[var(--main-color)]'>{value}</p>
+          {subValue && (
+            <p className='text-xs text-[var(--secondary-color)]/60'>
+              {subValue}
+            </p>
+          )}
+        </div>
       </div>
-      <div className='min-w-0 flex-1'>
-        <p className='text-xs text-[var(--secondary-color)]'>{label}</p>
-        <p className='text-lg font-semibold text-[var(--main-color)]'>
-          {value}
-        </p>
-        {subValue && (
-          <p className='text-xs text-[var(--secondary-color)]'>{subValue}</p>
-        )}
-      </div>
-    </div>
+    </motion.div>
   );
 }
 
 /**
- * Loading skeleton component
+ * Loading skeleton with shimmer
  */
 function LoadingSkeleton() {
   return (
-    <div className='grid animate-pulse grid-cols-1 gap-3 sm:grid-cols-2'>
+    <div className='grid grid-cols-2 gap-3'>
       {[...Array(6)].map((_, i) => (
         <div
           key={i}
-          className='flex items-center gap-3 rounded-lg bg-[var(--background-color)] p-3'
+          className='relative overflow-hidden rounded-2xl bg-[var(--background-color)] p-4'
         >
-          <div className='h-10 w-10 shrink-0 rounded-full bg-[var(--border-color)]' />
-          <div className='flex-1 space-y-2'>
-            <div className='h-3 w-20 rounded bg-[var(--border-color)]' />
-            <div className='h-5 w-16 rounded bg-[var(--border-color)]' />
+          <div className='animate-shimmer absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-[var(--card-color)]/50 to-transparent' />
+          <div className='flex items-center gap-4'>
+            <div className='h-12 w-12 shrink-0 rounded-xl bg-[var(--border-color)]/30' />
+            <div className='flex-1 space-y-2'>
+              <div className='h-3 w-16 rounded bg-[var(--border-color)]/30' />
+              <div className='h-5 w-12 rounded bg-[var(--border-color)]/30' />
+            </div>
           </div>
         </div>
       ))}
@@ -94,27 +123,28 @@ function LoadingSkeleton() {
 }
 
 /**
- * Empty state component
+ * Empty state
  */
 function EmptyState() {
   return (
-    <div className='py-8 text-center text-[var(--secondary-color)]'>
-      <p>No gauntlet data yet.</p>
-      <p className='mt-1 text-sm'>
-        Complete a gauntlet challenge to see your stats!
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className='flex flex-col items-center justify-center py-16 text-center'
+    >
+      <div className='mb-4 text-6xl opacity-30'>🏆</div>
+      <p className='text-[var(--secondary-color)]'>No gauntlet data yet</p>
+      <p className='text-sm text-[var(--secondary-color)]/60'>
+        Complete a gauntlet to see your stats!
       </p>
-    </div>
+    </motion.div>
   );
 }
 
 /**
  * GauntletStatsPanel Component
  *
- * Displays gauntlet mode performance statistics including total sessions,
- * completion rate, best time, accuracy, and best streak.
- * Handles loading state for async data.
- *
- * @requirements 4.1-4.6
+ * Premium panel with bold stats and consistent styling.
  */
 export default function GauntletStatsPanel({
   stats,
@@ -123,18 +153,65 @@ export default function GauntletStatsPanel({
 }: GauntletStatsPanelProps) {
   const hasData = stats && stats.totalSessions > 0;
 
+  const statItems = hasData
+    ? [
+        { icon: Activity, label: 'Sessions', value: stats.totalSessions },
+        {
+          icon: CheckCircle,
+          label: 'Completion',
+          value: `${stats.completionRate.toFixed(0)}%`,
+          subValue: `${stats.completedSessions}/${stats.totalSessions}`
+        },
+        {
+          icon: Clock,
+          label: 'Best Time',
+          value: formatTime(stats.fastestTime)
+        },
+        {
+          icon: Target,
+          label: 'Accuracy',
+          value: `${stats.accuracy.toFixed(0)}%`,
+          subValue: `${stats.totalCorrect}/${stats.totalCorrect + stats.totalWrong}`
+        },
+        { icon: Zap, label: 'Best Streak', value: stats.bestStreak },
+        { icon: Trophy, label: 'Correct', value: stats.totalCorrect }
+      ]
+    : [];
+
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.5 }}
       className={cn(
-        'rounded-2xl border border-[var(--border-color)] bg-[var(--card-color)] p-4',
+        'group relative overflow-hidden rounded-3xl',
+        'border border-[var(--border-color)]/50 bg-[var(--card-color)]',
+        'p-6',
         className
       )}
     >
-      <div className='flex flex-col gap-4'>
+      {/* Decorative element */}
+      <div className='pointer-events-none absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-gradient-to-tr from-[var(--secondary-color)]/5 to-transparent' />
+
+      <div className='relative z-10 flex flex-col gap-6'>
         {/* Header */}
-        <h3 className='text-lg font-semibold text-[var(--main-color)]'>
-          Gauntlet Stats
-        </h3>
+        <div className='flex items-center gap-4'>
+          <motion.div
+            animate={{ rotate: [0, 5, -5, 0] }}
+            transition={{ duration: 3, repeat: Infinity, repeatDelay: 2 }}
+            className='flex h-14 w-14 items-center justify-center rounded-2xl border border-[var(--main-color)]/20 bg-gradient-to-br from-[var(--main-color)]/20 to-[var(--secondary-color)]/10'
+          >
+            <Trophy className='h-7 w-7 text-[var(--main-color)]' />
+          </motion.div>
+          <div>
+            <h3 className='text-2xl font-black text-[var(--main-color)]'>
+              Gauntlet
+            </h3>
+            <p className='text-sm text-[var(--secondary-color)]/70'>
+              Endurance challenge stats
+            </p>
+          </div>
+        </div>
 
         {/* Content */}
         {isLoading ? (
@@ -142,45 +219,26 @@ export default function GauntletStatsPanel({
         ) : !hasData ? (
           <EmptyState />
         ) : (
-          <div className='grid grid-cols-1 gap-3 sm:grid-cols-2'>
-            <StatItem
-              icon={Activity}
-              label='Total Sessions'
-              value={stats.totalSessions}
-            />
-            <StatItem
-              icon={CheckCircle}
-              label='Completion Rate'
-              value={`${stats.completionRate.toFixed(1)}%`}
-              subValue={`${stats.completedSessions} / ${stats.totalSessions} completed`}
-            />
-            <StatItem
-              icon={Clock}
-              label='Best Time'
-              value={formatTime(stats.fastestTime)}
-            />
-            <StatItem
-              icon={Target}
-              label='Accuracy'
-              value={`${stats.accuracy.toFixed(1)}%`}
-              subValue={`${stats.totalCorrect} / ${stats.totalCorrect + stats.totalWrong} correct`}
-            />
-            <StatItem icon={Zap} label='Best Streak' value={stats.bestStreak} />
-            <StatItem
-              icon={Trophy}
-              label='Total Correct'
-              value={stats.totalCorrect}
-            />
+          <div className='grid grid-cols-2 gap-3'>
+            {statItems.map((item, idx) => (
+              <StatItem
+                key={item.label}
+                icon={item.icon}
+                label={item.label}
+                value={item.value}
+                subValue={item.subValue}
+                index={idx}
+              />
+            ))}
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
 
 /**
- * Helper function to get gauntlet stats display values for testing
- * Returns an object with all the values that should be displayed
+ * Helper function for testing
  */
 export function getGauntletDisplayValues(stats: GauntletOverallStats): {
   totalSessions: number;

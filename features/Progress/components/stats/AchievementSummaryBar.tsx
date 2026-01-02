@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 import { cn } from '@/shared/lib/utils';
 import { Trophy, Star, Award, ChevronRight } from 'lucide-react';
 import type { AchievementSummary } from '../../types/stats';
@@ -16,38 +17,52 @@ export interface AchievementSummaryBarProps {
 }
 
 /**
- * Individual stat item component
+ * Individual stat item - no hover animations
  */
 function StatItem({
   icon: Icon,
   label,
-  value
+  value,
+  index
 }: {
   icon: typeof Trophy;
   label: string;
   value: string | number;
+  index: number;
 }) {
   return (
-    <div className='flex items-center gap-2'>
-      <Icon className='h-4 w-4 text-[var(--secondary-color)]' />
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4, delay: 0.2 + index * 0.1 }}
+      className='flex items-center gap-4'
+    >
+      <div
+        className={cn(
+          'flex h-14 w-14 items-center justify-center rounded-2xl',
+          'bg-gradient-to-br from-[var(--main-color)]/10 to-[var(--secondary-color)]/5',
+          'border border-[var(--border-color)]/30',
+          'text-[var(--main-color)]'
+        )}
+      >
+        <Icon className='h-6 w-6' />
+      </div>
       <div className='flex flex-col'>
-        <span className='text-xs text-[var(--secondary-color)]'>{label}</span>
-        <span className='text-sm font-semibold text-[var(--main-color)]'>
+        <span className='text-2xl font-black text-[var(--main-color)]'>
           {value}
         </span>
+        <span className='text-xs font-medium text-[var(--secondary-color)]'>
+          {label}
+        </span>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
 /**
  * AchievementSummaryBar Component
  *
- * Displays a compact summary of achievement progress including
- * points, level, and unlocked achievements count.
- * Includes a link to the full achievements view.
- *
- * @requirements 8.1-8.4
+ * Premium horizontal card with bold stats and gradient progress.
  */
 export default function AchievementSummaryBar({
   summary,
@@ -58,56 +73,94 @@ export default function AchievementSummaryBar({
     totalAchievements > 0 ? (unlockedCount / totalAchievements) * 100 : 0;
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.1 }}
       className={cn(
-        'rounded-2xl border border-[var(--border-color)] bg-[var(--card-color)] p-4',
+        'group relative overflow-hidden rounded-3xl',
+        'border border-[var(--border-color)]/50 bg-[var(--card-color)]',
+        'p-6',
         className
       )}
     >
-      <div className='flex flex-col gap-4'>
-        {/* Header with link */}
+      {/* Decorative trophy glow */}
+      <div className='pointer-events-none absolute -top-10 -right-10 h-40 w-40 rounded-full bg-gradient-to-br from-[var(--main-color)]/10 to-transparent blur-3xl' />
+
+      <div className='relative z-10 flex flex-col gap-6'>
+        {/* Header with animated trophy */}
         <div className='flex items-center justify-between'>
-          <h3 className='text-lg font-semibold text-[var(--main-color)]'>
-            Achievements
-          </h3>
+          <div className='flex items-center gap-4'>
+            <motion.div
+              animate={{ rotate: [0, 5, -5, 0] }}
+              transition={{ duration: 3, repeat: Infinity, repeatDelay: 2 }}
+              className='flex h-14 w-14 items-center justify-center rounded-2xl border border-[var(--main-color)]/20 bg-gradient-to-br from-[var(--main-color)]/20 to-[var(--secondary-color)]/10'
+            >
+              <Trophy className='h-7 w-7 text-[var(--main-color)]' />
+            </motion.div>
+            <div>
+              <h3 className='text-2xl font-black text-[var(--main-color)]'>
+                Achievements
+              </h3>
+              <p className='text-sm text-[var(--secondary-color)]/70'>
+                Celebrate your milestones
+              </p>
+            </div>
+          </div>
           <Link
             href='/progress'
-            className='flex items-center gap-1 text-sm text-[var(--secondary-color)] transition-colors hover:text-[var(--main-color)]'
+            className={cn(
+              'group/link flex cursor-pointer items-center gap-2 rounded-full px-5 py-2.5',
+              'bg-[var(--background-color)]',
+              'border border-[var(--border-color)]/30',
+              'text-sm font-semibold text-[var(--secondary-color)]',
+              'transition-colors duration-300',
+              'hover:border-[var(--main-color)]/30 hover:text-[var(--main-color)]'
+            )}
           >
             View All
-            <ChevronRight className='h-4 w-4' />
+            <ChevronRight className='h-4 w-4 transition-colors duration-300' />
           </Link>
         </div>
 
-        {/* Stats Row */}
-        <div className='flex flex-wrap items-center justify-between gap-4'>
+        {/* Stats row */}
+        <div className='flex flex-wrap items-center gap-8 sm:gap-12'>
           <StatItem
             icon={Star}
             label='Points'
             value={totalPoints.toLocaleString()}
+            index={0}
           />
-          <StatItem icon={Trophy} label='Level' value={level} />
+          <StatItem icon={Trophy} label='Level' value={level} index={1} />
           <StatItem
             icon={Award}
             label='Unlocked'
-            value={`${unlockedCount} / ${totalAchievements}`}
+            value={`${unlockedCount}/${totalAchievements}`}
+            index={2}
           />
         </div>
 
-        {/* Progress Bar */}
-        <div className='space-y-1'>
-          <div className='h-2 overflow-hidden rounded-full bg-[var(--background-color)]'>
-            <div
-              className='h-full bg-[var(--main-color)] transition-all duration-300'
-              style={{ width: `${progressPercent}%` }}
+        {/* Progress bar */}
+        <div className='space-y-3'>
+          <div className='relative h-4 overflow-hidden rounded-full bg-[var(--background-color)]'>
+            <motion.div
+              className='absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-[var(--secondary-color)] to-[var(--main-color)]'
+              initial={{ width: 0 }}
+              animate={{ width: `${progressPercent}%` }}
+              transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
             />
           </div>
-          <p className='text-right text-xs text-[var(--secondary-color)]'>
-            {progressPercent.toFixed(0)}% Complete
-          </p>
+          <div className='flex items-center justify-between text-sm'>
+            <span className='text-[var(--secondary-color)]/70'>
+              Overall Progress
+            </span>
+            <span className='font-bold text-[var(--main-color)]'>
+              {progressPercent.toFixed(0)}%
+            </span>
+          </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

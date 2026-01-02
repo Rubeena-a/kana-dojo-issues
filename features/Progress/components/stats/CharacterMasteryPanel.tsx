@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/shared/lib/utils';
 import type {
   CharacterMasteryItem,
@@ -32,26 +33,29 @@ const CONTENT_FILTERS: { value: ContentFilter; label: string }[] = [
 ];
 
 /**
- * Mastery level configuration for display
+ * Theme-compliant mastery level configuration
  */
 const MASTERY_CONFIG: Record<
   MasteryLevel,
-  { label: string; color: string; bgColor: string }
+  { label: string; colorClass: string; bgClass: string; opacity: number }
 > = {
   mastered: {
     label: 'Mastered',
-    color: 'text-green-600',
-    bgColor: 'bg-green-100'
+    colorClass: 'text-[var(--main-color)]',
+    bgClass: 'bg-[var(--main-color)]',
+    opacity: 1
   },
   learning: {
     label: 'Learning',
-    color: 'text-yellow-600',
-    bgColor: 'bg-yellow-100'
+    colorClass: 'text-[var(--secondary-color)]',
+    bgClass: 'bg-[var(--secondary-color)]',
+    opacity: 0.8
   },
   'needs-practice': {
     label: 'Needs Practice',
-    color: 'text-red-600',
-    bgColor: 'bg-red-100'
+    colorClass: 'text-[var(--secondary-color)]',
+    bgClass: 'bg-[var(--secondary-color)]',
+    opacity: 0.5
   }
 };
 
@@ -89,19 +93,15 @@ export function getTopCharacters(
 ): CharacterMasteryItem[] {
   const filtered = characters.filter(char => {
     if (sortBy === 'difficult') {
-      // Need at least 5 attempts to be considered difficult
       return char.total >= 5;
     }
-    // For mastered, need to meet mastery criteria
     return char.masteryLevel === 'mastered';
   });
 
   const sorted = [...filtered].sort((a, b) => {
     if (sortBy === 'difficult') {
-      // Lowest accuracy first
       return a.accuracy - b.accuracy;
     }
-    // Highest accuracy first for mastered
     return b.accuracy - a.accuracy;
   });
 
@@ -111,10 +111,8 @@ export function getTopCharacters(
 /**
  * CharacterMasteryPanel Component
  *
- * Displays characters grouped by mastery level with filtering by content type.
- * Shows top 5 difficult and top 5 mastered characters prominently.
- *
- * @requirements 2.1-2.7
+ * Premium panel with bold typography, asymmetric layout,
+ * and smooth color transitions.
  */
 export default function CharacterMasteryPanel({
   characterMastery,
@@ -122,22 +120,18 @@ export default function CharacterMasteryPanel({
 }: CharacterMasteryPanelProps) {
   const [contentFilter, setContentFilter] = useState<ContentFilter>('all');
 
-  // Transform and filter character data
   const { filteredCharacters, topDifficult, topMastered, groupedByMastery } =
     useMemo(() => {
       const allCharacters = transformCharacterData(characterMastery);
 
-      // Filter by content type
       const filtered =
         contentFilter === 'all'
           ? allCharacters
           : allCharacters.filter(char => char.contentType === contentFilter);
 
-      // Get top characters
       const difficult = getTopCharacters(filtered, 5, 'difficult');
       const mastered = getTopCharacters(filtered, 5, 'mastered');
 
-      // Group by mastery level
       const grouped: Record<MasteryLevel, CharacterMasteryItem[]> = {
         mastered: [],
         learning: [],
@@ -159,134 +153,232 @@ export default function CharacterMasteryPanel({
   const hasCharacters = filteredCharacters.length > 0;
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.2 }}
       className={cn(
-        'rounded-2xl border border-[var(--border-color)] bg-[var(--card-color)] p-4',
+        'group relative overflow-hidden rounded-3xl',
+        'border border-[var(--border-color)]/50 bg-[var(--card-color)]',
+        'p-6',
         className
       )}
     >
-      <div className='flex flex-col gap-4'>
-        {/* Header */}
-        <div className='flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between'>
-          <h3 className='text-lg font-semibold text-[var(--main-color)]'>
-            Character Mastery
-          </h3>
+      {/* Large decorative circle */}
+      <div className='pointer-events-none absolute -top-32 -right-32 h-64 w-64 rounded-full bg-gradient-to-br from-[var(--main-color)]/5 to-transparent' />
 
-          {/* Content Type Filter Tabs */}
-          <div className='flex gap-1 rounded-lg bg-[var(--background-color)] p-1'>
+      <div className='relative z-10 flex flex-col gap-6'>
+        {/* Header with filter tabs */}
+        <div className='flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between'>
+          <div>
+            <h3 className='text-2xl font-black text-[var(--main-color)]'>
+              Character Mastery
+            </h3>
+            <p className='text-sm text-[var(--secondary-color)]/70'>
+              Your learning progress at a glance
+            </p>
+          </div>
+
+          {/* Pill-style filter tabs */}
+          <div className='flex gap-1 rounded-full bg-[var(--background-color)] p-1'>
             {CONTENT_FILTERS.map(filter => (
               <button
                 key={filter.value}
                 onClick={() => setContentFilter(filter.value)}
                 className={cn(
-                  'rounded-md px-3 py-1.5 text-sm transition-colors',
+                  'relative cursor-pointer rounded-full px-4 py-2 text-sm font-semibold transition-colors duration-300',
                   contentFilter === filter.value
-                    ? 'bg-[var(--card-color)] font-medium text-[var(--main-color)] shadow-sm'
-                    : 'text-[var(--secondary-color)] hover:text-[var(--main-color)]'
+                    ? 'text-[var(--main-color)]'
+                    : 'text-[var(--secondary-color)]/70 hover:text-[var(--main-color)]'
                 )}
               >
-                {filter.label}
+                {contentFilter === filter.value && (
+                  <motion.div
+                    layoutId='activeFilterTab'
+                    className='absolute inset-0 rounded-full bg-[var(--card-color)] shadow-sm'
+                    transition={{ type: 'spring', bounce: 0.15, duration: 0.5 }}
+                  />
+                )}
+                <span className='relative z-10'>{filter.label}</span>
               </button>
             ))}
           </div>
         </div>
 
-        {!hasCharacters ? (
-          <p className='py-8 text-center text-[var(--secondary-color)]'>
-            No characters practiced yet. Start training to see your mastery
-            progress!
-          </p>
-        ) : (
-          <>
-            {/* Top Characters Section */}
-            <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
-              {/* Top Difficult */}
-              <div className='space-y-2'>
-                <h4 className='text-sm font-medium text-[var(--secondary-color)]'>
-                  Need More Practice
-                </h4>
-                {topDifficult.length > 0 ? (
-                  <div className='space-y-2'>
-                    {topDifficult.map(char => (
-                      <CharacterRow key={char.character} item={char} />
-                    ))}
+        <AnimatePresence mode='wait'>
+          {!hasCharacters ? (
+            <motion.div
+              key='empty'
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className='flex flex-col items-center justify-center py-16 text-center'
+            >
+              <div className='mb-4 text-6xl opacity-30'>文</div>
+              <p className='text-[var(--secondary-color)]'>
+                No characters practiced yet
+              </p>
+              <p className='text-sm text-[var(--secondary-color)]/60'>
+                Start training to see your mastery progress!
+              </p>
+            </motion.div>
+          ) : (
+            <motion.div
+              key='content'
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className='space-y-6'
+            >
+              {/* Two-column character display */}
+              <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
+                {/* Needs Practice column */}
+                <div className='space-y-4'>
+                  <div className='flex items-center gap-3'>
+                    <div className='h-3 w-3 rounded-full bg-[var(--secondary-color)]/50' />
+                    <h4 className='text-sm font-bold tracking-wider text-[var(--secondary-color)] uppercase'>
+                      Needs Practice
+                    </h4>
                   </div>
-                ) : (
-                  <p className='text-xs text-[var(--secondary-color)]'>
-                    Keep practicing to see analysis!
-                  </p>
-                )}
-              </div>
-
-              {/* Top Mastered */}
-              <div className='space-y-2'>
-                <h4 className='text-sm font-medium text-[var(--secondary-color)]'>
-                  Top Mastered
-                </h4>
-                {topMastered.length > 0 ? (
-                  <div className='space-y-2'>
-                    {topMastered.map(char => (
-                      <CharacterRow key={char.character} item={char} />
-                    ))}
-                  </div>
-                ) : (
-                  <p className='text-xs text-[var(--secondary-color)]'>
-                    Master characters to see them here!
-                  </p>
-                )}
-              </div>
-            </div>
-
-            {/* Mastery Distribution Summary */}
-            <div className='flex flex-wrap gap-3 border-t border-[var(--border-color)] pt-2'>
-              {(
-                Object.entries(groupedByMastery) as [
-                  MasteryLevel,
-                  CharacterMasteryItem[]
-                ][]
-              ).map(([level, chars]) => (
-                <div
-                  key={level}
-                  className={cn(
-                    'flex items-center gap-2 rounded-full px-3 py-1.5 text-sm',
-                    MASTERY_CONFIG[level].bgColor
+                  {topDifficult.length > 0 ? (
+                    <div className='space-y-2'>
+                      {topDifficult.map((char, idx) => (
+                        <CharacterRow
+                          key={char.character}
+                          item={char}
+                          index={idx}
+                        />
+                      ))}
+                    </div>
+                  ) : (
+                    <div className='rounded-2xl bg-[var(--background-color)] p-6 text-center'>
+                      <p className='text-sm text-[var(--secondary-color)]/60'>
+                        Keep practicing!
+                      </p>
+                    </div>
                   )}
-                >
-                  <span
-                    className={cn('font-medium', MASTERY_CONFIG[level].color)}
-                  >
-                    {chars.length}
-                  </span>
-                  <span className={MASTERY_CONFIG[level].color}>
-                    {MASTERY_CONFIG[level].label}
-                  </span>
                 </div>
-              ))}
-            </div>
-          </>
-        )}
+
+                {/* Top Mastered column */}
+                <div className='space-y-4'>
+                  <div className='flex items-center gap-3'>
+                    <div className='h-3 w-3 rounded-full bg-[var(--main-color)]' />
+                    <h4 className='text-sm font-bold tracking-wider text-[var(--main-color)] uppercase'>
+                      Top Mastered
+                    </h4>
+                  </div>
+                  {topMastered.length > 0 ? (
+                    <div className='space-y-2'>
+                      {topMastered.map((char, idx) => (
+                        <CharacterRow
+                          key={char.character}
+                          item={char}
+                          index={idx}
+                          isMastered
+                        />
+                      ))}
+                    </div>
+                  ) : (
+                    <div className='rounded-2xl bg-[var(--background-color)] p-6 text-center'>
+                      <p className='text-sm text-[var(--secondary-color)]/60'>
+                        Master characters to see them here!
+                      </p>
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              {/* Mastery level summary - horizontal pills */}
+              <div className='flex flex-wrap items-center gap-3 border-t border-[var(--border-color)]/30 pt-6'>
+                {(
+                  Object.entries(groupedByMastery) as [
+                    MasteryLevel,
+                    CharacterMasteryItem[]
+                  ][]
+                ).map(([level, chars]) => {
+                  const config = MASTERY_CONFIG[level];
+                  return (
+                    <motion.div
+                      key={level}
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      className={cn(
+                        'flex items-center gap-2 rounded-full px-4 py-2',
+                        'bg-[var(--background-color)]',
+                        'border border-[var(--border-color)]/30'
+                      )}
+                    >
+                      <div
+                        className='h-2 w-2 rounded-full'
+                        style={{
+                          backgroundColor:
+                            level === 'mastered'
+                              ? 'var(--main-color)'
+                              : 'var(--secondary-color)',
+                          opacity: config.opacity
+                        }}
+                      />
+                      <span className='text-sm font-bold text-[var(--main-color)]'>
+                        {chars.length}
+                      </span>
+                      <span className='text-sm text-[var(--secondary-color)]'>
+                        {config.label}
+                      </span>
+                    </motion.div>
+                  );
+                })}
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
 /**
- * Individual character row component
+ * Individual character row - color transitions only
  */
-function CharacterRow({ item }: { item: CharacterMasteryItem }) {
+function CharacterRow({
+  item,
+  index,
+  isMastered = false
+}: {
+  item: CharacterMasteryItem;
+  index: number;
+  isMastered?: boolean;
+}) {
   return (
-    <div className='flex items-center justify-between rounded-lg bg-[var(--background-color)] p-2'>
-      <span className='text-xl font-medium text-[var(--main-color)]'>
+    <motion.div
+      initial={{ opacity: 0, x: isMastered ? 10 : -10 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.3, delay: index * 0.05 }}
+      className={cn(
+        'flex cursor-pointer items-center justify-between rounded-2xl p-4',
+        'bg-[var(--background-color)]',
+        'border border-transparent',
+        'transition-colors duration-300',
+        'hover:border-[var(--main-color)]/20 hover:bg-[var(--border-color)]/20'
+      )}
+    >
+      <span className='text-3xl font-bold text-[var(--main-color)]'>
         {item.character}
       </span>
       <div className='text-right'>
-        <div className='text-sm font-medium text-[var(--secondary-color)]'>
-          {item.accuracy.toFixed(1)}%
+        <div
+          className={cn(
+            'text-lg font-black',
+            isMastered
+              ? 'text-[var(--main-color)]'
+              : 'text-[var(--secondary-color)]'
+          )}
+        >
+          {item.accuracy.toFixed(0)}%
         </div>
-        <div className='text-xs text-[var(--secondary-color)]'>
-          {item.total} attempts
+        <div className='text-xs text-[var(--secondary-color)]/60'>
+          {item.total} tries
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

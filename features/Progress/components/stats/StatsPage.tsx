@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/shared/lib/utils';
 import {
   TrendingUp,
@@ -28,7 +29,7 @@ import useStatsStore from '../../store/useStatsStore';
 import { useStatsAggregator } from '../../hooks/useStatsAggregator';
 import OverviewStatsCard from './OverviewStatsCard';
 import CharacterMasteryPanel from './CharacterMasteryPanel';
-import TimedModeStatsPanel from './TimedModeStatsPanel';
+import BlitzStatsPanel from './TimedModeStatsPanel';
 import GauntletStatsPanel from './GauntletStatsPanel';
 import MasteryDistributionChart from './MasteryDistributionChart';
 import AchievementSummaryBar from './AchievementSummaryBar';
@@ -42,39 +43,49 @@ export interface StatsPageProps {
 }
 
 /**
- * Empty state component for when there's no data
+ * Empty state with premium styling
  */
 function EmptyState() {
   return (
-    <div className='flex flex-col items-center justify-center py-16 text-center'>
-      <div className='mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[var(--card-color)]'>
-        <TrendingUp className='h-8 w-8 text-[var(--secondary-color)]' />
-      </div>
-      <h2 className='mb-2 text-xl font-semibold text-[var(--main-color)]'>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className='flex flex-col items-center justify-center py-24 text-center'
+    >
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+        className='mb-6 text-8xl opacity-20'
+      >
+        📊
+      </motion.div>
+      <motion.h2
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3 }}
+        className='mb-3 text-3xl font-black text-[var(--main-color)]'
+      >
         No Progress Yet
-      </h2>
-      <p className='max-w-md text-[var(--secondary-color)]'>
-        Start practicing to see your statistics here! Complete training sessions
+      </motion.h2>
+      <motion.p
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4 }}
+        className='max-w-md text-[var(--secondary-color)]'
+      >
+        Start practicing to see your statistics here. Complete training sessions
         to track your progress and character mastery.
-      </p>
-    </div>
+      </motion.p>
+    </motion.div>
   );
 }
 
 /**
  * StatsPage Component
  *
- * Main container component that orchestrates all stats sub-components.
- * Displays a comprehensive dashboard with overview stats, character mastery,
- * timed mode stats, gauntlet stats, mastery distribution, and achievements.
- *
- * Features:
- * - Responsive grid layout (single column on mobile, multi-column on larger screens)
- * - Reset functionality with confirmation dialog
- * - Empty state handling
- * - Loading states for async data
- *
- * @requirements 1.1-1.6, 6.1-6.5, 7.1-7.4
+ * Premium dashboard with bold typography, asymmetric layouts,
+ * and cohesive visual design.
  */
 export default function StatsPage({ className }: StatsPageProps) {
   const { playClick } = useClick();
@@ -94,50 +105,93 @@ export default function StatsPage({ className }: StatsPageProps) {
     setShowResetModal(false);
   };
 
+  const overviewStats = [
+    {
+      title: 'Total Sessions',
+      value: stats.totalSessions,
+      icon: <TrendingUp className='h-5 w-5' />
+    },
+    {
+      title: 'Accuracy',
+      value: `${stats.overallAccuracy.toFixed(0)}%`,
+      subtitle: `${stats.totalCorrect}/${stats.totalCorrect + stats.totalIncorrect}`,
+      icon: <Target className='h-5 w-5' />
+    },
+    {
+      title: 'Best Streak',
+      value: stats.bestStreak,
+      icon: <Trophy className='h-5 w-5' />
+    },
+    {
+      title: 'Characters',
+      value: stats.uniqueCharactersLearned,
+      icon: <Users className='h-5 w-5' />
+    },
+    {
+      title: 'Correct',
+      value: stats.totalCorrect,
+      icon: <CheckCircle className='h-5 w-5' />
+    },
+    {
+      title: 'Incorrect',
+      value: stats.totalIncorrect,
+      icon: <XCircle className='h-5 w-5' />
+    }
+  ];
+
   return (
-    <div className={cn('space-y-6', className)}>
+    <div className={cn('space-y-8', className)}>
       {/* Header */}
-      <div className='flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between'>
-        <h1 className='text-3xl font-medium text-[var(--main-color)]'>
-          Your Progress
-        </h1>
+      <motion.div
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        className='flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between'
+      >
+        <div className='space-y-2'>
+          <h1 className='text-4xl font-black tracking-tight text-[var(--main-color)]'>
+            Your Progress
+          </h1>
+          <p className='text-lg text-[var(--secondary-color)]/70'>
+            Track your Japanese learning journey
+          </p>
+        </div>
         <ActionButton
           onClick={handleResetClick}
           colorScheme='secondary'
           borderColorScheme='secondary'
           borderBottomThickness={8}
-          className='w-auto px-4 py-2 text-sm'
+          className='w-auto cursor-pointer gap-2 px-6 py-3 text-sm font-semibold'
         >
           <Trash className='h-4 w-4' />
-          Reset Progress
+          Reset
         </ActionButton>
-      </div>
+      </motion.div>
 
       {/* Reset Confirmation Dialog */}
       <AlertDialog open={showResetModal} onOpenChange={setShowResetModal}>
-        <AlertDialogContent className='border-[var(--border-color)] bg-[var(--card-color)]'>
+        <AlertDialogContent className='rounded-3xl border-[var(--border-color)] bg-[var(--card-color)]'>
           <AlertDialogHeader>
-            <div className='mb-2 flex items-center gap-3'>
-              <div className='flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-red-100'>
-                <AlertTriangle className='h-6 w-6 text-red-600' />
+            <div className='mb-4 flex items-center gap-4'>
+              <div className='flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-[var(--secondary-color)]/20 bg-[var(--secondary-color)]/10'>
+                <AlertTriangle className='h-7 w-7 text-[var(--secondary-color)]' />
               </div>
-              <AlertDialogTitle className='text-xl text-[var(--main-color)]'>
+              <AlertDialogTitle className='text-2xl font-black text-[var(--main-color)]'>
                 Reset All Progress?
               </AlertDialogTitle>
             </div>
-            <AlertDialogDescription className='leading-relaxed text-[var(--secondary-color)]'>
+            <AlertDialogDescription className='text-base leading-relaxed text-[var(--secondary-color)]'>
               This will permanently delete all your progress data, including
               sessions, accuracy stats, and character mastery. This action
               cannot be undone.
             </AlertDialogDescription>
           </AlertDialogHeader>
-          <AlertDialogFooter>
-            <AlertDialogCancel className='border-[var(--border-color)] text-[var(--main-color)] hover:bg-[var(--background-color)]'>
+          <AlertDialogFooter className='gap-3'>
+            <AlertDialogCancel className='cursor-pointer rounded-full border-[var(--border-color)] px-6 text-[var(--main-color)] transition-colors duration-300 hover:bg-[var(--background-color)]'>
               Cancel
             </AlertDialogCancel>
             <AlertDialogAction
               onClick={handleConfirmReset}
-              className='bg-red-600 text-white hover:bg-red-700'
+              className='cursor-pointer rounded-full bg-[var(--secondary-color)] px-6 text-white transition-colors duration-300 hover:bg-[var(--secondary-color)]/80'
             >
               Reset Progress
             </AlertDialogAction>
@@ -145,84 +199,70 @@ export default function StatsPage({ className }: StatsPageProps) {
         </AlertDialogContent>
       </AlertDialog>
 
-      {!hasData ? (
-        <EmptyState />
-      ) : (
-        <>
-          {/* Overview Stats Grid */}
-          <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6'>
-            <OverviewStatsCard
-              title='Total Sessions'
-              value={stats.totalSessions}
-              icon={<TrendingUp className='h-4 w-4' />}
-            />
-            <OverviewStatsCard
-              title='Overall Accuracy'
-              value={`${stats.overallAccuracy.toFixed(1)}%`}
-              subtitle={`${stats.totalCorrect} / ${stats.totalCorrect + stats.totalIncorrect} correct`}
-              icon={<Target className='h-4 w-4' />}
-            />
-            <OverviewStatsCard
-              title='Best Streak'
-              value={stats.bestStreak}
-              icon={<Trophy className='h-4 w-4' />}
-            />
-            <OverviewStatsCard
-              title='Characters Learned'
-              value={stats.uniqueCharactersLearned}
-              icon={<Users className='h-4 w-4' />}
-            />
-            <OverviewStatsCard
-              title='Total Correct'
-              value={stats.totalCorrect}
-              icon={<CheckCircle className='h-4 w-4' />}
-            />
-            <OverviewStatsCard
-              title='Total Incorrect'
-              value={stats.totalIncorrect}
-              icon={<XCircle className='h-4 w-4' />}
-            />
-          </div>
+      <AnimatePresence mode='wait'>
+        {!hasData ? (
+          <EmptyState key='empty' />
+        ) : (
+          <motion.div
+            key='content'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className='space-y-8'
+          >
+            {/* Overview Stats Grid - 3 columns on large screens */}
+            <div className='grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6'>
+              {overviewStats.map((stat, index) => (
+                <OverviewStatsCard
+                  key={stat.title}
+                  title={stat.title}
+                  value={stat.value}
+                  subtitle={stat.subtitle}
+                  icon={stat.icon}
+                  index={index}
+                />
+              ))}
+            </div>
 
-          {/* Achievement Summary */}
-          <AchievementSummaryBar summary={stats.achievements} />
+            {/* Achievement Summary */}
+            <AchievementSummaryBar summary={stats.achievements} />
 
-          {/* Main Content Grid */}
-          <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
-            {/* Character Mastery Panel */}
-            <CharacterMasteryPanel
-              characterMastery={Object.fromEntries(
-                stats.characterMastery.map(item => [
-                  item.character,
-                  { correct: item.correct, incorrect: item.incorrect }
-                ])
-              )}
-            />
+            {/* Two-column layout for panels */}
+            <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
+              <CharacterMasteryPanel
+                characterMastery={Object.fromEntries(
+                  stats.characterMastery.map(item => [
+                    item.character,
+                    { correct: item.correct, incorrect: item.incorrect }
+                  ])
+                )}
+              />
+              <MasteryDistributionChart
+                distribution={stats.masteryDistribution}
+              />
+            </div>
 
-            {/* Mastery Distribution Chart */}
-            <MasteryDistributionChart
-              distribution={stats.masteryDistribution}
-            />
-          </div>
-
-          {/* Timed Mode and Gauntlet Stats */}
-          <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
-            <TimedModeStatsPanel
-              kanaStats={stats.timedKana}
-              kanjiStats={stats.timedKanji}
-              vocabularyStats={stats.timedVocabulary}
-            />
-            <GauntletStatsPanel stats={stats.gauntlet} isLoading={isLoading} />
-          </div>
-        </>
-      )}
+            {/* Second two-column row */}
+            <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
+              <BlitzStatsPanel
+                kanaStats={stats.timedKana}
+                kanjiStats={stats.timedKanji}
+                vocabularyStats={stats.timedVocabulary}
+              />
+              <GauntletStatsPanel
+                stats={stats.gauntlet}
+                isLoading={isLoading}
+              />
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
 
 /**
- * Helper function to get stats overview display values for testing
- * Returns an object with all the key metrics that should be displayed
+ * Helper function for testing
  */
 export function getStatsOverviewDisplayValues(stats: {
   totalSessions: number;

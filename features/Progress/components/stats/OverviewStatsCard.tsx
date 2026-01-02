@@ -1,6 +1,7 @@
 'use client';
 
 import { type ReactNode } from 'react';
+import { motion } from 'framer-motion';
 import { cn } from '@/shared/lib/utils';
 
 /**
@@ -19,13 +20,15 @@ export interface OverviewStatsCardProps {
   trend?: 'up' | 'down' | 'neutral';
   /** Optional additional CSS classes */
   className?: string;
+  /** Animation delay index for staggered entrance */
+  index?: number;
 }
 
 /**
  * OverviewStatsCard Component
  *
- * Displays a single statistic in a card format with an icon, value, and optional subtitle.
- * Uses theme variables for consistent styling across the application.
+ * Premium stat card with bold geometric design, gradient accents,
+ * and smooth color transitions on hover.
  *
  * @requirements 1.1-1.5, 7.4
  */
@@ -35,44 +38,99 @@ export default function OverviewStatsCard({
   subtitle,
   icon,
   trend,
-  className
+  className,
+  index = 0
 }: OverviewStatsCardProps) {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 0.5,
+        delay: index * 0.08,
+        ease: [0.25, 0.46, 0.45, 0.94]
+      }}
       className={cn(
-        'rounded-2xl border border-[var(--border-color)] bg-[var(--card-color)] p-4',
+        'group relative overflow-hidden rounded-3xl',
+        'bg-gradient-to-br from-[var(--card-color)] to-[var(--card-color)]',
+        'border border-[var(--border-color)]/50',
+        'cursor-pointer p-6',
+        'transition-colors duration-300',
+        'hover:border-[var(--main-color)]/30',
         className
       )}
     >
-      <div className='flex flex-row items-center justify-between space-y-0 pb-2'>
-        <h3 className='text-sm font-medium text-[var(--main-color)]'>
-          {title}
-        </h3>
-        <div className='h-4 w-4 text-[var(--secondary-color)]'>{icon}</div>
-      </div>
-      <div className='pt-2'>
-        <div className='flex items-center gap-2'>
-          <span className='text-2xl font-bold text-[var(--main-color)]'>
-            {value}
-          </span>
+      {/* Decorative geometric shape - top right corner */}
+      <div className='absolute -top-8 -right-8 h-24 w-24 rounded-full bg-gradient-to-br from-[var(--main-color)]/8 to-[var(--secondary-color)]/5 opacity-60 blur-2xl transition-opacity duration-300 group-hover:opacity-100' />
+
+      {/* Smooth gradient bottom accent bar */}
+      <motion.div
+        className='absolute right-0 bottom-0 left-0 h-1.5 rounded-b-3xl bg-gradient-to-r from-[var(--main-color)] via-[var(--secondary-color)] to-[var(--main-color)]'
+        initial={{ opacity: 0, scaleX: 0 }}
+        animate={{ opacity: 1, scaleX: 1 }}
+        transition={{ duration: 0.8, delay: index * 0.08 + 0.3 }}
+      />
+
+      <div className='relative z-10 flex flex-col gap-4'>
+        {/* Icon container with geometric background */}
+        <div className='flex items-center justify-between'>
+          <div
+            className={cn(
+              'flex h-12 w-12 items-center justify-center rounded-2xl',
+              'bg-gradient-to-br from-[var(--main-color)]/10 to-[var(--secondary-color)]/5',
+              'border border-[var(--border-color)]/30',
+              'text-[var(--main-color)]',
+              'transition-colors duration-300',
+              'group-hover:from-[var(--main-color)]/20 group-hover:to-[var(--secondary-color)]/10',
+              'group-hover:border-[var(--main-color)]/40'
+            )}
+          >
+            {icon}
+          </div>
+
           {trend && trend !== 'neutral' && (
-            <span
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3, delay: index * 0.08 + 0.4 }}
               className={cn(
-                'text-xs font-medium',
-                trend === 'up' && 'text-green-500',
-                trend === 'down' && 'text-red-500'
+                'flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-bold',
+                trend === 'up' &&
+                  'bg-[var(--main-color)]/10 text-[var(--main-color)]',
+                trend === 'down' &&
+                  'bg-[var(--secondary-color)]/10 text-[var(--secondary-color)]'
               )}
             >
               {trend === 'up' ? '↑' : '↓'}
-            </span>
+            </motion.div>
           )}
         </div>
-        {subtitle && (
-          <p className='mt-1 text-xs text-[var(--secondary-color)]'>
-            {subtitle}
-          </p>
-        )}
+
+        {/* Value and title */}
+        <div className='space-y-1'>
+          <motion.div
+            className='text-4xl font-black tracking-tight text-[var(--main-color)]'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.4, delay: index * 0.08 + 0.2 }}
+          >
+            {value}
+          </motion.div>
+          <h3 className='text-sm font-medium text-[var(--secondary-color)] transition-colors duration-300 group-hover:text-[var(--main-color)]'>
+            {title}
+          </h3>
+          {subtitle && (
+            <motion.p
+              className='text-xs text-[var(--secondary-color)]/60'
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3, delay: index * 0.08 + 0.35 }}
+            >
+              {subtitle}
+            </motion.p>
+          )}
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
