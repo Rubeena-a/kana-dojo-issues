@@ -94,14 +94,16 @@ const ThemeCard = memo(function ThemeCard({
     ? getWallpaperStyles(wallpaper.url, isHovered)
     : {};
 
+  const borderStyle = isPremiumTheme
+    ? 'none'
+    : `1px solid ${isSelected ? theme.mainColor : theme.borderColor}`;
+
   return (
     <div
       className='cursor-pointer rounded-lg p-3'
       style={{
         ...(wallpaper ? wallpaperStyles : { background }),
-        border: isSelected
-          ? `1px solid ${theme.mainColor}`
-          : `1px solid ${theme.borderColor}`,
+        border: borderStyle,
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -204,8 +206,8 @@ export default function ThemesModal({ open, onOpenChange }: ThemesModalProps) {
                 const Icon = group.icon;
                 return (
                   <div key={group.name} className='space-y-3'>
-                    <div className='flex items-center gap-2 text-lg font-medium'>
-                      <Icon size={20} />
+                    <div className='flex items-center gap-2 text-lg font-medium text-(--main-color)'>
+                      <Icon size={20} className='text-(--main-color)' />
                       {group.name === 'Premium' ? (
                         <span>
                           <span className='text-(--main-color)'>Premium</span>
@@ -214,11 +216,10 @@ export default function ThemesModal({ open, onOpenChange }: ThemesModalProps) {
                           </span>
                         </span>
                       ) : (
-                        group.name
+                        <span className='text-(--main-color)'>
+                          {group.name}
+                        </span>
                       )}
-                      {/* <span className='text-sm font-normal text-(--secondary-color)'>
-                        ({group.themes.length})
-                      </span> */}
                     </div>
                     <div className='grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4'>
                       {group.themes.map(theme => (
