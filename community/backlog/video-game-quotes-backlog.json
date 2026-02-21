@@ -1196,7 +1196,7 @@
     "english": "I won't hesitate anymore.",
     "game": "Metal Gear Solid",
     "character": "Otacon",
-    "issued": false,
+    "issued": true,
     "completed": false
   }
 ]
