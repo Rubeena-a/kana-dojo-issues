@@ -59,7 +59,6 @@ type LevelSetCardsProps<TLevel extends string, TItem> = {
 
   loadingText: string;
   tipText: React.ReactNode;
-  unitLabel?: string;
 };
 
 const INITIAL_ROWS = 5;
@@ -83,7 +82,6 @@ const LevelSetCards = <TLevel extends string, TItem>({
   renderSetDictionary,
   loadingText,
   tipText,
-  unitLabel,
 }: LevelSetCardsProps<TLevel, TItem>) => {
   const { playClick } = useClick();
 
@@ -342,7 +340,6 @@ const LevelSetCards = <TLevel extends string, TItem>({
         onClearAll={handleClearAll}
         onSelectRandom={handleSelectRandom}
         unitName={selectedUnitName}
-        unitLabel={unitLabel}
       />
 
       {masteredCount > 0 && (

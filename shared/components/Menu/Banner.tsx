@@ -6,15 +6,19 @@ import { removeLocaleFromPath } from '@/shared/lib/pathUtils';
 const Banner = () => {
   const pathname = usePathname();
   const pathWithoutLocale = removeLocaleFromPath(pathname);
+  const isKanaRoute = pathWithoutLocale === '/kana';
+  const isKanjiRoute = pathWithoutLocale.startsWith('/kanji');
+  const isVocabRoute = pathWithoutLocale === '/vocabulary';
+  const isPreferencesRoute = pathWithoutLocale === '/preferences';
 
   const subheading =
-    pathWithoutLocale === '/kana'
+    isKanaRoute
       ? 'Kana あ'
-      : pathWithoutLocale === '/kanji'
+      : isKanjiRoute
         ? 'Kanji 字'
-        : pathWithoutLocale === '/vocabulary'
+        : isVocabRoute
           ? 'Vocabulary 語'
-          : pathWithoutLocale === '/preferences'
+          : isPreferencesRoute
             ? 'Preferences 設'
             : '';
   return (

@@ -28,13 +28,6 @@ const KANJI_LENGTHS: Record<KanjiLevel, number> = {
   n2: N2KanjiLength,
   n1: N1KanjiLength,
 };
-const KANJI_UNIT_LABELS: Record<KanjiLevel, string> = {
-  n5: 'JLPT N5',
-  n4: 'JLPT N4',
-  n3: 'JLPT N3',
-  n2: 'JLPT N2',
-  n1: 'JLPT N1',
-};
 
 const KanjiCards = () => {
   const selectedKanjiCollectionName = useKanjiStore(
@@ -101,7 +94,6 @@ const KanjiCards = () => {
       getMasteryKey={item => item.kanjiChar}
       renderSetDictionary={items => <KanjiSetDictionary words={items} />}
       loadingText='Loading kanji sets...'
-      unitLabel={KANJI_UNIT_LABELS[selectedKanjiCollectionName as KanjiLevel]}
       tipText={
         <>
           💡 <strong>Tip:</strong> Complete some practice sessions to unlock the

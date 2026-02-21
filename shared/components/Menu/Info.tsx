@@ -16,13 +16,16 @@ const Info = () => {
 
   // Remove locale from pathname (e.g., /en/kana -> /kana)
   const pathWithoutLocale = removeLocaleFromPath(pathname);
+  const normalizedPath = pathWithoutLocale.startsWith('/kanji/')
+    ? '/kanji'
+    : pathWithoutLocale;
 
   // Get translations object, passing the translation function
   const translations = translationGen(t);
 
   // Get page data with fallback to home
   const pageData =
-    translations[pathWithoutLocale as keyof typeof translations] ||
+    translations[normalizedPath as keyof typeof translations] ||
     translations['/'];
 
   // Provide default values to avoid destructuring undefined
@@ -36,15 +39,10 @@ const Info = () => {
       '/kana/learn-hiragana',
       '/kana/learn-katakana',
       '/kanji',
-      '/kanji/jlpt-n5',
-      '/kanji/jlpt-n4',
-      '/kanji/jlpt-n3',
-      '/kanji/jlpt-n2',
-      '/kanji/jlpt-n1',
       '/vocabulary',
       '/',
       '/sentences',
-    ].includes(pathWithoutLocale)
+    ].includes(normalizedPath)
       ? true
       : false,
   );
