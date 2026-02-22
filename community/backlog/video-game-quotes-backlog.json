@@ -1056,7 +1056,7 @@
     "english": "This ends here.",
     "game": "Metal Gear Solid",
     "character": "Solid Snake",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
