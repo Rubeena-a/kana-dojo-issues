@@ -1,962 +1,962 @@
 [
   {
-    "id": 1,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 1.",
+    "id": "cm-001",
+    "wrong": "は",
+    "correct": "が",
+    "explanation": "wa vs ga: topic vs subject marker",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 2,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 2.",
+    "id": "cm-002",
+    "wrong": "を",
+    "correct": "に",
+    "explanation": "wo vs ni: direct object vs direction",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 3,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 3.",
+    "id": "cm-003",
+    "wrong": "する",
+    "correct": "やる",
+    "explanation": "suru vs yaru: formal vs casual do",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 4,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 4.",
+    "id": "cm-004",
+    "wrong": "ある",
+    "correct": "いる",
+    "explanation": "aru vs iru: inanimate vs animate existence",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 5,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 5.",
+    "id": "cm-005",
+    "wrong": "行く",
+    "correct": "来る",
+    "explanation": "iku vs kuru: go vs come perspective",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 6,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 6.",
+    "id": "cm-006",
+    "wrong": "見る",
+    "correct": "見える",
+    "explanation": "miru vs mieru: active vs passive seeing",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 7,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 7.",
+    "id": "cm-007",
+    "wrong": "聞く",
+    "correct": "聞こえる",
+    "explanation": "kiku vs kikoeru: active vs passive hearing",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 8,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 8.",
+    "id": "cm-008",
+    "wrong": "言う",
+    "correct": "話す",
+    "explanation": "iu vs hanasu: say vs speak",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 9,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 9.",
+    "id": "cm-009",
+    "wrong": "食べる",
+    "correct": "食う",
+    "explanation": "taberu vs kuu: polite vs rough eat",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 10,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 10.",
+    "id": "cm-010",
+    "wrong": "飲む",
+    "correct": "飲める",
+    "explanation": "nomu vs nomeru: drink vs can drink",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 11,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 11.",
+    "id": "cm-011",
+    "wrong": "大きい",
+    "correct": "大きな",
+    "explanation": "ookii vs ookina: predicate vs attributive",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 12,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 12.",
+    "id": "cm-012",
+    "wrong": "小さい",
+    "correct": "小さな",
+    "explanation": "chiisai vs chiisana: same issue",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 13,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 13.",
+    "id": "cm-013",
+    "wrong": "難しい",
+    "correct": "難しな",
+    "explanation": "nai-form error: i-adj vs na-adj",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 14,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 14.",
+    "id": "cm-014",
+    "wrong": "暑い",
+    "correct": "熱い",
+    "explanation": "atsui: weather hot vs object hot",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 15,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 15.",
+    "id": "cm-015",
+    "wrong": "早い",
+    "correct": "速い",
+    "explanation": "hayai: early vs fast",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 16,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 16.",
+    "id": "cm-016",
+    "wrong": "聞く",
+    "correct": "聴く",
+    "explanation": "kiku: hear vs listen carefully",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 17,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 17.",
+    "id": "cm-017",
+    "wrong": "上手",
+    "correct": "得意",
+    "explanation": "jouzu vs tokui: skilled vs personally good at",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 18,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 18.",
+    "id": "cm-018",
+    "wrong": "下手",
+    "correct": "苦手",
+    "explanation": "heta vs nigate: bad at vs weak point",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 19,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 19.",
+    "id": "cm-019",
+    "wrong": "もう",
+    "correct": "まだ",
+    "explanation": "mou vs mada: already vs still",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 20,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 20.",
+    "id": "cm-020",
+    "wrong": "ちょっと",
+    "correct": "少し",
+    "explanation": "chotto vs sukoshi: slight nuance difference",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 21,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 21.",
+    "id": "cm-021",
+    "wrong": "思う",
+    "correct": "考える",
+    "explanation": "omou vs kangaeru: feel/think vs think logically",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 22,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 22.",
+    "id": "cm-022",
+    "wrong": "知っている",
+    "correct": "分かっている",
+    "explanation": "shitteiru vs wakatte iru: know fact vs understand",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 23,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 23.",
+    "id": "cm-023",
+    "wrong": "帰る",
+    "correct": "戻る",
+    "explanation": "kaeru vs modoru: return home vs return to place",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 24,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 24.",
+    "id": "cm-024",
+    "wrong": "変える",
+    "correct": "変わる",
+    "explanation": "kaeru vs kawaru: change transitive vs intransitive",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 25,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 25.",
+    "id": "cm-025",
+    "wrong": "出る",
+    "correct": "出す",
+    "explanation": "deru vs dasu: exit vs take out",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 26,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 26.",
+    "id": "cm-026",
+    "wrong": "入る",
+    "correct": "入れる",
+    "explanation": "hairu vs ireru: enter vs put in",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 27,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 27.",
+    "id": "cm-027",
+    "wrong": "始まる",
+    "correct": "始める",
+    "explanation": "hajimaru vs hajimeru: begin intransitive vs transitive",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 28,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 28.",
+    "id": "cm-028",
+    "wrong": "終わる",
+    "correct": "終える",
+    "explanation": "owaru vs oeru: end intransitive vs transitive",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 29,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 29.",
+    "id": "cm-029",
+    "wrong": "続く",
+    "correct": "続ける",
+    "explanation": "tsuzuku vs tsuzukeru: continue intransitive vs transitive",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 30,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 30.",
+    "id": "cm-030",
+    "wrong": "起きる",
+    "correct": "起こる",
+    "explanation": "okiru vs okoru: wake up / occur (person) vs event occurs",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 31,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 31.",
+    "id": "cm-031",
+    "wrong": "なる",
+    "correct": "する",
+    "explanation": "naru vs suru: become vs make",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 32,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 32.",
+    "id": "cm-032",
+    "wrong": "やっぱり",
+    "correct": "やはり",
+    "explanation": "yappari vs yahari: casual vs formal same meaning",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 33,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 33.",
+    "id": "cm-033",
+    "wrong": "でも",
+    "correct": "しかし",
+    "explanation": "demo vs shikashi: but casual vs formal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 34,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 34.",
+    "id": "cm-034",
+    "wrong": "だから",
+    "correct": "ので",
+    "explanation": "dakara vs node: so/therefore casual vs polite reason",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 35,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 35.",
+    "id": "cm-035",
+    "wrong": "〜と思う",
+    "correct": "〜と思っている",
+    "explanation": "to omou: simple thought vs ongoing thought",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 36,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 36.",
+    "id": "cm-036",
+    "wrong": "〜てしまう",
+    "correct": "〜てしまった",
+    "explanation": "shimau: regret ongoing vs completed",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 37,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 37.",
+    "id": "cm-037",
+    "wrong": "〜ながら",
+    "correct": "〜つつ",
+    "explanation": "nagara vs tsutsu: while doing, casual vs formal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 38,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 38.",
+    "id": "cm-038",
+    "wrong": "〜ようだ",
+    "correct": "〜らしい",
+    "explanation": "you da vs rashii: seems from observation vs hearsay",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 39,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 39.",
+    "id": "cm-039",
+    "wrong": "〜かもしれない",
+    "correct": "〜でしょう",
+    "explanation": "kamoshirenai vs deshou: maybe vs probably",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 40,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 40.",
+    "id": "cm-040",
+    "wrong": "〜に行く",
+    "correct": "〜へ行く",
+    "explanation": "ni iku vs e iku: destination with purpose vs direction",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 41,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 41.",
+    "id": "cm-041",
+    "wrong": "〜で",
+    "correct": "〜に",
+    "explanation": "de vs ni: location of action vs location of existence",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 42,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 42.",
+    "id": "cm-042",
+    "wrong": "〜から",
+    "correct": "〜ので",
+    "explanation": "kara vs node: because casual vs polite",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 43,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 43.",
+    "id": "cm-043",
+    "wrong": "全然",
+    "correct": "全く",
+    "explanation": "zenzen vs mattaku: not at all, both negative but nuance differs",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 44,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 44.",
+    "id": "cm-044",
+    "wrong": "ほとんど",
+    "correct": "だいたい",
+    "explanation": "hotondo vs daitai: almost all vs roughly",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 45,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 45.",
+    "id": "cm-045",
+    "wrong": "もし",
+    "correct": "たとえ",
+    "explanation": "moshi vs tatoe: if vs even if",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 46,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 46.",
+    "id": "cm-046",
+    "wrong": "また",
+    "correct": "再び",
+    "explanation": "mata vs futatabi: again casual vs formal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 47,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 47.",
+    "id": "cm-047",
+    "wrong": "すぐ",
+    "correct": "すぐに",
+    "explanation": "sugu vs sugu ni: immediately, ni optional but sounds more assertive",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 48,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 48.",
+    "id": "cm-048",
+    "wrong": "どんどん",
+    "correct": "どんどんと",
+    "explanation": "dondon vs dondon to: rapidly, to particle optional",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 49,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 49.",
+    "id": "cm-049",
+    "wrong": "とても",
+    "correct": "すごく",
+    "explanation": "totemo vs sugoku: very, sugoku more casual",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 50,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 50.",
+    "id": "cm-050",
+    "wrong": "なんか",
+    "correct": "なんて",
+    "explanation": "nanka vs nante: something like, nante more emphatic",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 51,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 51.",
+    "id": "cm-051",
+    "wrong": "ちゃんと",
+    "correct": "きちんと",
+    "explanation": "chanto vs kichinto: properly, kichinto more formal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 52,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 52.",
+    "id": "cm-052",
+    "wrong": "さっさと",
+    "correct": "さっと",
+    "explanation": "sassato vs satto: quickly, sassato implies impatience",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 53,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 53.",
+    "id": "cm-053",
+    "wrong": "まず",
+    "correct": "はじめに",
+    "explanation": "mazu vs hajime ni: first, mazu more casual",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 54,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 54.",
+    "id": "cm-054",
+    "wrong": "それから",
+    "correct": "その後",
+    "explanation": "sorekara vs sonogo: after that, sonogo more formal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 55,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 55.",
+    "id": "cm-055",
+    "wrong": "だいじょうぶ",
+    "correct": "問題ない",
+    "explanation": "daijoubu vs mondai nai: fine vs no problem",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 56,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 56.",
+    "id": "cm-056",
+    "wrong": "しっかり",
+    "correct": "きっちり",
+    "explanation": "shikkari vs kicchiri: firmly, kicchiri more precise",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 57,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 57.",
+    "id": "cm-057",
+    "wrong": "やっと",
+    "correct": "ようやく",
+    "explanation": "yatto vs youyaku: finally, youyaku more formal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 58,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 58.",
+    "id": "cm-058",
+    "wrong": "もちろん",
+    "correct": "当然",
+    "explanation": "mochiron vs touzen: of course, touzen implies obviousness",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 59,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 59.",
+    "id": "cm-059",
+    "wrong": "急に",
+    "correct": "突然",
+    "explanation": "kyuu ni vs totsuzen: suddenly, totsuzen more abrupt",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 60,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 60.",
+    "id": "cm-060",
+    "wrong": "やはり",
+    "correct": "案の定",
+    "explanation": "yahari vs an no jou: as expected, an no jou more literary",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 61,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 61.",
+    "id": "cm-061",
+    "wrong": "〜てみる",
+    "correct": "〜てみせる",
+    "explanation": "te miru vs te miseru: try doing vs do to show",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 62,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 62.",
+    "id": "cm-062",
+    "wrong": "〜ておく",
+    "correct": "〜ておく",
+    "explanation": "te oku: do in advance, same form different contexts",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 63,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 63.",
+    "id": "cm-063",
+    "wrong": "〜てくる",
+    "correct": "〜ていく",
+    "explanation": "te kuru vs te iku: come doing vs go doing directional nuance",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 64,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 64.",
+    "id": "cm-064",
+    "wrong": "〜させる",
+    "correct": "〜させてもらう",
+    "explanation": "saseru vs sasete morau: make do vs humbly do",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 65,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 65.",
+    "id": "cm-065",
+    "wrong": "〜てもらう",
+    "correct": "〜てくれる",
+    "explanation": "te morau vs te kureru: receive doing vs someone gives doing",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 66,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 66.",
+    "id": "cm-066",
+    "wrong": "〜てあげる",
+    "correct": "〜てやる",
+    "explanation": "te ageru vs te yaru: do for others, yaru more condescending",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 67,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 67.",
+    "id": "cm-067",
+    "wrong": "〜てほしい",
+    "correct": "〜てもらいたい",
+    "explanation": "te hoshii vs te moraitai: want someone to do, moraitai more polite",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 68,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 68.",
+    "id": "cm-068",
+    "wrong": "〜たい",
+    "correct": "〜たがる",
+    "explanation": "tai vs tagaru: want (self) vs want (third person observable)",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 69,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 69.",
+    "id": "cm-069",
+    "wrong": "〜べき",
+    "correct": "〜はず",
+    "explanation": "beki vs hazu: should vs expected to",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 70,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 70.",
+    "id": "cm-070",
+    "wrong": "〜かねる",
+    "correct": "〜しかねる",
+    "explanation": "kaneru vs shikaneru: cannot bring myself to, shikaneru more formal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 71,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 71.",
+    "id": "cm-071",
+    "wrong": "〜に違いない",
+    "correct": "〜に決まっている",
+    "explanation": "ni chigai nai vs ni kimatte iru: must be, kimatte iru more colloquial",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 72,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 72.",
+    "id": "cm-072",
+    "wrong": "先生",
+    "correct": "教師",
+    "explanation": "sensei vs kyoushi: teacher, kyoushi more formal/official",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 73,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 73.",
+    "id": "cm-073",
+    "wrong": "友達",
+    "correct": "友人",
+    "explanation": "tomodachi vs yuujin: friend, yuujin more formal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 74,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 74.",
+    "id": "cm-074",
+    "wrong": "家",
+    "correct": "家庭",
+    "explanation": "ie vs katei: house vs household/family unit",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 75,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 75.",
+    "id": "cm-075",
+    "wrong": "仕事",
+    "correct": "作業",
+    "explanation": "shigoto vs sagyou: work/job vs task/operation",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 76,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 76.",
+    "id": "cm-076",
+    "wrong": "始め",
+    "correct": "初め",
+    "explanation": "hajime: beginning of action vs beginning in time",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 77,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 77.",
+    "id": "cm-077",
+    "wrong": "上",
+    "correct": "上部",
+    "explanation": "ue vs joubu: above vs upper part",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 78,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 78.",
+    "id": "cm-078",
+    "wrong": "中",
+    "correct": "内",
+    "explanation": "naka vs uchi: inside general vs inside boundary",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 79,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 79.",
+    "id": "cm-079",
+    "wrong": "外",
+    "correct": "外側",
+    "explanation": "soto vs sotogawa: outside vs outer side",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 80,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 80.",
+    "id": "cm-080",
+    "wrong": "前",
+    "correct": "以前",
+    "explanation": "mae vs izen: before/front vs before (time, more formal)",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 81,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 81.",
+    "id": "cm-081",
+    "wrong": "後",
+    "correct": "以後",
+    "explanation": "ato vs igo: after vs from now on (formal)",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 82,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 82.",
+    "id": "cm-082",
+    "wrong": "今",
+    "correct": "現在",
+    "explanation": "ima vs genzai: now casual vs now formal/current",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 83,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 83.",
+    "id": "cm-083",
+    "wrong": "昔",
+    "correct": "以前",
+    "explanation": "mukashi vs izen: long ago vs previously",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 84,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 84.",
+    "id": "cm-084",
+    "wrong": "次",
+    "correct": "次回",
+    "explanation": "tsugi vs jikai: next vs next time (more formal)",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 85,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 85.",
+    "id": "cm-085",
+    "wrong": "前回",
+    "correct": "前の時",
+    "explanation": "zenkai vs mae no toki: last time formal vs casual",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 86,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 86.",
+    "id": "cm-086",
+    "wrong": "毎日",
+    "correct": "日々",
+    "explanation": "mainichi vs hibi: every day casual vs formal/literary",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 87,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 87.",
+    "id": "cm-087",
+    "wrong": "毎年",
+    "correct": "年々",
+    "explanation": "maitoshi vs nennen: every year vs year by year",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 88,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 88.",
+    "id": "cm-088",
+    "wrong": "大人",
+    "correct": "成人",
+    "explanation": "otona vs seijin: adult casual vs adult formal/legal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 89,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 89.",
+    "id": "cm-089",
+    "wrong": "子供",
+    "correct": "子ども",
+    "explanation": "kodomo: both correct, ども is preferred by some style guides",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 90,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 90.",
+    "id": "cm-090",
+    "wrong": "男",
+    "correct": "男性",
+    "explanation": "otoko vs dansei: man casual vs male formal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 91,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 91.",
+    "id": "cm-091",
+    "wrong": "女",
+    "correct": "女性",
+    "explanation": "onna vs josei: woman casual vs female formal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 92,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 92.",
+    "id": "cm-092",
+    "wrong": "お金",
+    "correct": "金",
+    "explanation": "okane vs kane: money polite vs money blunt/rude in some contexts",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 93,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 93.",
+    "id": "cm-093",
+    "wrong": "お腹",
+    "correct": "腹",
+    "explanation": "onaka vs hara: stomach polite vs stomach rough",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 94,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 94.",
+    "id": "cm-094",
+    "wrong": "お茶",
+    "correct": "茶",
+    "explanation": "ocha vs cha: tea polite vs tea plain, cha used in compounds",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 95,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 95.",
+    "id": "cm-095",
+    "wrong": "お風呂",
+    "correct": "風呂",
+    "explanation": "ofuro vs furo: bath polite vs bath casual",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 96,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 96.",
+    "id": "cm-096",
+    "wrong": "ご飯",
+    "correct": "飯",
+    "explanation": "gohan vs meshi: meal/rice polite vs meal rough",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 97,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 97.",
+    "id": "cm-097",
+    "wrong": "お土産",
+    "correct": "土産",
+    "explanation": "omiyage vs miyage: souvenir, o-prefix omitted in compounds",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 98,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 98.",
+    "id": "cm-098",
+    "wrong": "お祭り",
+    "correct": "祭り",
+    "explanation": "omatsuri vs matsuri: festival, o-prefix polite",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 99,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 99.",
+    "id": "cm-099",
+    "wrong": "お寺",
+    "correct": "寺",
+    "explanation": "otera vs tera: temple, o-prefix respectful",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 100,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 100.",
+    "id": "cm-100",
+    "wrong": "ご両親",
+    "correct": "親",
+    "explanation": "go-ryoushin vs oya: parents formal vs parents casual",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 101,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 101.",
+    "id": "cm-101",
+    "wrong": "お兄さん",
+    "correct": "兄",
+    "explanation": "oniisan vs ani: older brother, oniisan when addressing others",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 102,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 102.",
+    "id": "cm-102",
+    "wrong": "お姉さん",
+    "correct": "姉",
+    "explanation": "oneesan vs ane: older sister, same pattern",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 103,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 103.",
+    "id": "cm-103",
+    "wrong": "弟",
+    "correct": "弟さん",
+    "explanation": "otouto vs otoutosan: younger brother (own) vs someone else's",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 104,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 104.",
+    "id": "cm-104",
+    "wrong": "妹",
+    "correct": "妹さん",
+    "explanation": "imouto vs imoutosan: younger sister (own) vs someone else's",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 105,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 105.",
+    "id": "cm-105",
+    "wrong": "〜ます",
+    "correct": "〜ません",
+    "explanation": "masu vs masen: present positive vs negative polite",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 106,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 106.",
+    "id": "cm-106",
+    "wrong": "〜でした",
+    "correct": "〜ではありませんでした",
+    "explanation": "deshita vs dewa arimasen deshita: was vs was not polite",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 107,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 107.",
+    "id": "cm-107",
+    "wrong": "〜ている",
+    "correct": "〜ていない",
+    "explanation": "te iru vs te inai: is doing vs is not doing",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 108,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 108.",
+    "id": "cm-108",
+    "wrong": "〜でしょう",
+    "correct": "〜だろう",
+    "explanation": "deshou vs darou: probably, deshou polite darou casual",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 109,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 109.",
+    "id": "cm-109",
+    "wrong": "〜けど",
+    "correct": "〜が",
+    "explanation": "kedo vs ga: but, kedo more casual, ga more neutral/formal",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 110,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 110.",
+    "id": "cm-110",
+    "wrong": "〜し",
+    "correct": "〜それに",
+    "explanation": "shi vs sore ni: and also, shi adds reasons, sore ni adds points",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 111,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 111.",
+    "id": "cm-111",
+    "wrong": "〜たり〜たり",
+    "correct": "〜て〜て",
+    "explanation": "tari tari vs te te: doing things like vs sequential actions",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 112,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 112.",
+    "id": "cm-112",
+    "wrong": "は (1)",
+    "correct": "が (1)",
+    "explanation": "wa vs ga: topic vs subject marker",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 113,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 113.",
+    "id": "cm-113",
+    "wrong": "を (1)",
+    "correct": "に (1)",
+    "explanation": "wo vs ni: direct object vs direction",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 114,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 114.",
+    "id": "cm-114",
+    "wrong": "する (1)",
+    "correct": "やる (1)",
+    "explanation": "suru vs yaru: formal vs casual do",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 115,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 115.",
+    "id": "cm-115",
+    "wrong": "ある (1)",
+    "correct": "いる (1)",
+    "explanation": "aru vs iru: inanimate vs animate existence",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 116,
-    "wrong": "??????????????",
-    "correct": "??????????????",
-    "explanation": "Use adverb \"???\" with \"??\". Entry 116.",
+    "id": "cm-116",
+    "wrong": "行く (1)",
+    "correct": "来る (1)",
+    "explanation": "iku vs kuru: go vs come perspective",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 117,
-    "wrong": "???????????????????",
-    "correct": "?????????????????????",
-    "explanation": "Prefer explicit verb for naturalness. Entry 117.",
+    "id": "cm-117",
+    "wrong": "見る (1)",
+    "correct": "見える (1)",
+    "explanation": "miru vs mieru: active vs passive seeing",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 118,
-    "wrong": "??????????????????",
-    "correct": "?????????????????",
-    "explanation": "Choose causal form/register carefully. Entry 118.",
+    "id": "cm-118",
+    "wrong": "聞く (1)",
+    "correct": "聞こえる (1)",
+    "explanation": "kiku vs kikoeru: active vs passive hearing",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 119,
-    "wrong": "????????????????",
-    "correct": "???????????????",
-    "explanation": "Avoid unintended question intonation. Entry 119.",
+    "id": "cm-119",
+    "wrong": "言う (1)",
+    "correct": "話す (1)",
+    "explanation": "iu vs hanasu: say vs speak",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 120,
-    "wrong": "??????????????????",
-    "correct": "????????????????",
-    "explanation": "Drop redundant subject when obvious. Entry 120.",
+    "id": "cm-120",
+    "wrong": "食べる (1)",
+    "correct": "食う (1)",
+    "explanation": "taberu vs kuu: polite vs rough eat",
     "issued": false,
-    "completed": true
+    "completed": false
   }
 ]

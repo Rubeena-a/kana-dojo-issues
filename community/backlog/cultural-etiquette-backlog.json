@@ -1,1082 +1,1082 @@
 [
   {
-    "id": 1,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 1.",
+    "id": "ce-001",
+    "situation": "初対面の挨拶",
+    "do": "お辞儀をする",
+    "dont": "手を差し出して握手する",
+    "note": "お辞儀の角度は関係性による",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 2,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 2.",
+    "id": "ce-002",
+    "situation": "名刺交換",
+    "do": "両手で丁寧に受け取る",
+    "dont": "片手で受け取ったり即しまったりする",
+    "note": "受け取った後は大切に扱う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 3,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 3.",
+    "id": "ce-003",
+    "situation": "食事の前",
+    "do": "いただきますと言う",
+    "dont": "すぐ食べ始める",
+    "note": "感謝の気持ちを表す言葉",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 4,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 4.",
+    "id": "ce-004",
+    "situation": "食事の後",
+    "do": "ごちそうさまと言う",
+    "dont": "黙って席を立つ",
+    "note": "料理人への感謝を示す",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 5,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 5.",
+    "id": "ce-005",
+    "situation": "お箸の使い方",
+    "do": "箸置きに置く",
+    "dont": "碗に立てたり、渡し箸をする",
+    "note": "これらは仏事の作法と混同される",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 6,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 6.",
+    "id": "ce-006",
+    "situation": "他人の家を訪問する時",
+    "do": "玄関で靴を脱ぐ",
+    "dont": "靴を履いたまま上がる",
+    "note": "靴は揃えて端に置く",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 7,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 7.",
+    "id": "ce-007",
+    "situation": "電車の中",
+    "do": "静かに乗る",
+    "dont": "大声で電話する",
+    "note": "マナーモードに設定する",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 8,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 8.",
+    "id": "ce-008",
+    "situation": "お風呂に入る前",
+    "do": "体を洗ってから湯船に浸かる",
+    "dont": "汚れたまま湯船に入る",
+    "note": "湯船は皆で共有するもの",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 9,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 9.",
+    "id": "ce-009",
+    "situation": "贈り物をする時",
+    "do": "両手で渡す",
+    "dont": "片手で雑に渡す",
+    "note": "包装にも気を配る",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 10,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 10.",
+    "id": "ce-010",
+    "situation": "お礼を言う",
+    "do": "ありがとうございますと丁寧に言う",
+    "dont": "軽く会釈だけする",
+    "note": "お礼状を書くこともある",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 11,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 11.",
+    "id": "ce-011",
+    "situation": "謝る時",
+    "do": "申し訳ございませんと深くお辞儀する",
+    "dont": "軽くすみませんと言うだけ",
+    "note": "誠意を見せることが大切",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 12,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 12.",
+    "id": "ce-012",
+    "situation": "会議中",
+    "do": "発言は挙手して順番を守る",
+    "dont": "他人の発言を遮る",
+    "note": "根回しを事前にしておく",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 13,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 13.",
+    "id": "ce-013",
+    "situation": "年上への敬語",
+    "do": "敬語を使う",
+    "dont": "タメ口で話す",
+    "note": "年齢差が少しでもあれば注意",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 14,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 14.",
+    "id": "ce-014",
+    "situation": "乾杯の時",
+    "do": "グラスを合わせる",
+    "dont": "自分だけ飲み始める",
+    "note": "目上の人のグラスより低くする",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 15,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 15.",
+    "id": "ce-015",
+    "situation": "お酒の席",
+    "do": "人のグラスが空いたら注ぐ",
+    "dont": "自分だけどんどん飲む",
+    "note": "断る時は「結構です」と言う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 16,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 16.",
+    "id": "ce-016",
+    "situation": "病院の待合室",
+    "do": "静かに待つ",
+    "dont": "大声で話す",
+    "note": "携帯の使用も控えめに",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 17,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 17.",
+    "id": "ce-017",
+    "situation": "図書館",
+    "do": "静かに本を読む",
+    "dont": "大声で話す",
+    "note": "本は丁寧に扱う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 18,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 18.",
+    "id": "ce-018",
+    "situation": "エレベーター",
+    "do": "ドアを押さえて待つ",
+    "dont": "さっさと乗り込む",
+    "note": "降りる人が先",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 19,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 19.",
+    "id": "ce-019",
+    "situation": "電車のドア",
+    "do": "ドアが開いたら端に寄る",
+    "dont": "ドアの前に立ち塞がる",
+    "note": "スムーズな乗降を心がける",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 20,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 20.",
+    "id": "ce-020",
+    "situation": "バスの中",
+    "do": "座席は必要な人に譲る",
+    "dont": "優先席に若者が座る",
+    "note": "高齢者・妊婦・障害者を優先",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 21,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 21.",
+    "id": "ce-021",
+    "situation": "神社での作法",
+    "do": "鳥居をくぐる前に一礼する",
+    "dont": "無礼にも参拝する",
+    "note": "参道の端を歩く",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 22,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 22.",
+    "id": "ce-022",
+    "situation": "お寺での作法",
+    "do": "合掌して静かにお参りする",
+    "dont": "大声で騒ぐ",
+    "note": "線香の煙を体に浴びると良いとされる",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 23,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 23.",
+    "id": "ce-023",
+    "situation": "お葬式",
+    "do": "黒い服を着る",
+    "dont": "派手な服を着る",
+    "note": "香典を持参する",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 24,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 24.",
+    "id": "ce-024",
+    "situation": "結婚式",
+    "do": "白いドレスは避ける",
+    "dont": "白いドレスを着る",
+    "note": "白は花嫁の色とされる",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 25,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 25.",
+    "id": "ce-025",
+    "situation": "入社式",
+    "do": "礼服で出席する",
+    "dont": "カジュアルな服装で来る",
+    "note": "第一印象が大切",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 26,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 26.",
+    "id": "ce-026",
+    "situation": "卒業式",
+    "do": "袴や礼服を着る",
+    "dont": "ジーンズで来る",
+    "note": "正式な場の服装マナー",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 27,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 27.",
+    "id": "ce-027",
+    "situation": "花見",
+    "do": "ゴミは持ち帰る",
+    "dont": "ゴミを放置して帰る",
+    "note": "公共の場所をきれいに使う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 28,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 28.",
+    "id": "ce-028",
+    "situation": "温泉・銭湯",
+    "do": "入浴前に体を洗う",
+    "dont": "タトゥーがある場合は確認が必要",
+    "note": "多くの施設がタトゥー禁止",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 29,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 29.",
+    "id": "ce-029",
+    "situation": "旅館",
+    "do": "チェックイン時に仲居さんに挨拶する",
+    "dont": "無言で部屋に入る",
+    "note": "お茶と和菓子でもてなしを受ける",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 30,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 30.",
+    "id": "ce-030",
+    "situation": "お中元・お歳暮",
+    "do": "お世話になった方に贈る",
+    "dont": "見返りを期待して贈る",
+    "note": "感謝の気持ちを形にする文化",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 31,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 31.",
+    "id": "ce-031",
+    "situation": "初対面の挨拶 2",
+    "do": "お辞儀をする",
+    "dont": "手を差し出して握手する",
+    "note": "お辞儀の角度は関係性による",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 32,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 32.",
+    "id": "ce-032",
+    "situation": "名刺交換 2",
+    "do": "両手で丁寧に受け取る",
+    "dont": "片手で受け取ったり即しまったりする",
+    "note": "受け取った後は大切に扱う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 33,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 33.",
+    "id": "ce-033",
+    "situation": "食事の前 2",
+    "do": "いただきますと言う",
+    "dont": "すぐ食べ始める",
+    "note": "感謝の気持ちを表す言葉",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 34,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 34.",
+    "id": "ce-034",
+    "situation": "食事の後 2",
+    "do": "ごちそうさまと言う",
+    "dont": "黙って席を立つ",
+    "note": "料理人への感謝を示す",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 35,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 35.",
+    "id": "ce-035",
+    "situation": "お箸の使い方 2",
+    "do": "箸置きに置く",
+    "dont": "碗に立てたり、渡し箸をする",
+    "note": "これらは仏事の作法と混同される",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 36,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 36.",
+    "id": "ce-036",
+    "situation": "他人の家を訪問する時 2",
+    "do": "玄関で靴を脱ぐ",
+    "dont": "靴を履いたまま上がる",
+    "note": "靴は揃えて端に置く",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 37,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 37.",
+    "id": "ce-037",
+    "situation": "電車の中 2",
+    "do": "静かに乗る",
+    "dont": "大声で電話する",
+    "note": "マナーモードに設定する",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 38,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 38.",
+    "id": "ce-038",
+    "situation": "お風呂に入る前 2",
+    "do": "体を洗ってから湯船に浸かる",
+    "dont": "汚れたまま湯船に入る",
+    "note": "湯船は皆で共有するもの",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 39,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 39.",
+    "id": "ce-039",
+    "situation": "贈り物をする時 2",
+    "do": "両手で渡す",
+    "dont": "片手で雑に渡す",
+    "note": "包装にも気を配る",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 40,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 40.",
+    "id": "ce-040",
+    "situation": "お礼を言う 2",
+    "do": "ありがとうございますと丁寧に言う",
+    "dont": "軽く会釈だけする",
+    "note": "お礼状を書くこともある",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 41,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 41.",
+    "id": "ce-041",
+    "situation": "謝る時 2",
+    "do": "申し訳ございませんと深くお辞儀する",
+    "dont": "軽くすみませんと言うだけ",
+    "note": "誠意を見せることが大切",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 42,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 42.",
+    "id": "ce-042",
+    "situation": "会議中 2",
+    "do": "発言は挙手して順番を守る",
+    "dont": "他人の発言を遮る",
+    "note": "根回しを事前にしておく",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 43,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 43.",
+    "id": "ce-043",
+    "situation": "年上への敬語 2",
+    "do": "敬語を使う",
+    "dont": "タメ口で話す",
+    "note": "年齢差が少しでもあれば注意",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 44,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 44.",
+    "id": "ce-044",
+    "situation": "乾杯の時 2",
+    "do": "グラスを合わせる",
+    "dont": "自分だけ飲み始める",
+    "note": "目上の人のグラスより低くする",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 45,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 45.",
+    "id": "ce-045",
+    "situation": "お酒の席 2",
+    "do": "人のグラスが空いたら注ぐ",
+    "dont": "自分だけどんどん飲む",
+    "note": "断る時は「結構です」と言う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 46,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 46.",
+    "id": "ce-046",
+    "situation": "病院の待合室 2",
+    "do": "静かに待つ",
+    "dont": "大声で話す",
+    "note": "携帯の使用も控えめに",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 47,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 47.",
+    "id": "ce-047",
+    "situation": "図書館 2",
+    "do": "静かに本を読む",
+    "dont": "大声で話す",
+    "note": "本は丁寧に扱う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 48,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 48.",
+    "id": "ce-048",
+    "situation": "エレベーター 2",
+    "do": "ドアを押さえて待つ",
+    "dont": "さっさと乗り込む",
+    "note": "降りる人が先",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 49,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 49.",
+    "id": "ce-049",
+    "situation": "電車のドア 2",
+    "do": "ドアが開いたら端に寄る",
+    "dont": "ドアの前に立ち塞がる",
+    "note": "スムーズな乗降を心がける",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 50,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 50.",
+    "id": "ce-050",
+    "situation": "バスの中 2",
+    "do": "座席は必要な人に譲る",
+    "dont": "優先席に若者が座る",
+    "note": "高齢者・妊婦・障害者を優先",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 51,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 51.",
+    "id": "ce-051",
+    "situation": "神社での作法 2",
+    "do": "鳥居をくぐる前に一礼する",
+    "dont": "無礼にも参拝する",
+    "note": "参道の端を歩く",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 52,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 52.",
+    "id": "ce-052",
+    "situation": "お寺での作法 2",
+    "do": "合掌して静かにお参りする",
+    "dont": "大声で騒ぐ",
+    "note": "線香の煙を体に浴びると良いとされる",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 53,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 53.",
+    "id": "ce-053",
+    "situation": "お葬式 2",
+    "do": "黒い服を着る",
+    "dont": "派手な服を着る",
+    "note": "香典を持参する",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 54,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 54.",
+    "id": "ce-054",
+    "situation": "結婚式 2",
+    "do": "白いドレスは避ける",
+    "dont": "白いドレスを着る",
+    "note": "白は花嫁の色とされる",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 55,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 55.",
+    "id": "ce-055",
+    "situation": "入社式 2",
+    "do": "礼服で出席する",
+    "dont": "カジュアルな服装で来る",
+    "note": "第一印象が大切",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 56,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 56.",
+    "id": "ce-056",
+    "situation": "卒業式 2",
+    "do": "袴や礼服を着る",
+    "dont": "ジーンズで来る",
+    "note": "正式な場の服装マナー",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 57,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 57.",
+    "id": "ce-057",
+    "situation": "花見 2",
+    "do": "ゴミは持ち帰る",
+    "dont": "ゴミを放置して帰る",
+    "note": "公共の場所をきれいに使う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 58,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 58.",
+    "id": "ce-058",
+    "situation": "温泉・銭湯 2",
+    "do": "入浴前に体を洗う",
+    "dont": "タトゥーがある場合は確認が必要",
+    "note": "多くの施設がタトゥー禁止",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 59,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 59.",
+    "id": "ce-059",
+    "situation": "旅館 2",
+    "do": "チェックイン時に仲居さんに挨拶する",
+    "dont": "無言で部屋に入る",
+    "note": "お茶と和菓子でもてなしを受ける",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 60,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 60.",
+    "id": "ce-060",
+    "situation": "お中元・お歳暮 2",
+    "do": "お世話になった方に贈る",
+    "dont": "見返りを期待して贈る",
+    "note": "感謝の気持ちを形にする文化",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 61,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 61.",
+    "id": "ce-061",
+    "situation": "初対面の挨拶 3",
+    "do": "お辞儀をする",
+    "dont": "手を差し出して握手する",
+    "note": "お辞儀の角度は関係性による",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 62,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 62.",
+    "id": "ce-062",
+    "situation": "名刺交換 3",
+    "do": "両手で丁寧に受け取る",
+    "dont": "片手で受け取ったり即しまったりする",
+    "note": "受け取った後は大切に扱う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 63,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 63.",
+    "id": "ce-063",
+    "situation": "食事の前 3",
+    "do": "いただきますと言う",
+    "dont": "すぐ食べ始める",
+    "note": "感謝の気持ちを表す言葉",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 64,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 64.",
+    "id": "ce-064",
+    "situation": "食事の後 3",
+    "do": "ごちそうさまと言う",
+    "dont": "黙って席を立つ",
+    "note": "料理人への感謝を示す",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 65,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 65.",
+    "id": "ce-065",
+    "situation": "お箸の使い方 3",
+    "do": "箸置きに置く",
+    "dont": "碗に立てたり、渡し箸をする",
+    "note": "これらは仏事の作法と混同される",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 66,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 66.",
+    "id": "ce-066",
+    "situation": "他人の家を訪問する時 3",
+    "do": "玄関で靴を脱ぐ",
+    "dont": "靴を履いたまま上がる",
+    "note": "靴は揃えて端に置く",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 67,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 67.",
+    "id": "ce-067",
+    "situation": "電車の中 3",
+    "do": "静かに乗る",
+    "dont": "大声で電話する",
+    "note": "マナーモードに設定する",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 68,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 68.",
+    "id": "ce-068",
+    "situation": "お風呂に入る前 3",
+    "do": "体を洗ってから湯船に浸かる",
+    "dont": "汚れたまま湯船に入る",
+    "note": "湯船は皆で共有するもの",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 69,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 69.",
+    "id": "ce-069",
+    "situation": "贈り物をする時 3",
+    "do": "両手で渡す",
+    "dont": "片手で雑に渡す",
+    "note": "包装にも気を配る",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 70,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 70.",
+    "id": "ce-070",
+    "situation": "お礼を言う 3",
+    "do": "ありがとうございますと丁寧に言う",
+    "dont": "軽く会釈だけする",
+    "note": "お礼状を書くこともある",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 71,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 71.",
+    "id": "ce-071",
+    "situation": "謝る時 3",
+    "do": "申し訳ございませんと深くお辞儀する",
+    "dont": "軽くすみませんと言うだけ",
+    "note": "誠意を見せることが大切",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 72,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 72.",
+    "id": "ce-072",
+    "situation": "会議中 3",
+    "do": "発言は挙手して順番を守る",
+    "dont": "他人の発言を遮る",
+    "note": "根回しを事前にしておく",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 73,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 73.",
+    "id": "ce-073",
+    "situation": "年上への敬語 3",
+    "do": "敬語を使う",
+    "dont": "タメ口で話す",
+    "note": "年齢差が少しでもあれば注意",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 74,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 74.",
+    "id": "ce-074",
+    "situation": "乾杯の時 3",
+    "do": "グラスを合わせる",
+    "dont": "自分だけ飲み始める",
+    "note": "目上の人のグラスより低くする",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 75,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 75.",
+    "id": "ce-075",
+    "situation": "お酒の席 3",
+    "do": "人のグラスが空いたら注ぐ",
+    "dont": "自分だけどんどん飲む",
+    "note": "断る時は「結構です」と言う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 76,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 76.",
+    "id": "ce-076",
+    "situation": "病院の待合室 3",
+    "do": "静かに待つ",
+    "dont": "大声で話す",
+    "note": "携帯の使用も控えめに",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 77,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 77.",
+    "id": "ce-077",
+    "situation": "図書館 3",
+    "do": "静かに本を読む",
+    "dont": "大声で話す",
+    "note": "本は丁寧に扱う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 78,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 78.",
+    "id": "ce-078",
+    "situation": "エレベーター 3",
+    "do": "ドアを押さえて待つ",
+    "dont": "さっさと乗り込む",
+    "note": "降りる人が先",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 79,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 79.",
+    "id": "ce-079",
+    "situation": "電車のドア 3",
+    "do": "ドアが開いたら端に寄る",
+    "dont": "ドアの前に立ち塞がる",
+    "note": "スムーズな乗降を心がける",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 80,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 80.",
+    "id": "ce-080",
+    "situation": "バスの中 3",
+    "do": "座席は必要な人に譲る",
+    "dont": "優先席に若者が座る",
+    "note": "高齢者・妊婦・障害者を優先",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 81,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 81.",
+    "id": "ce-081",
+    "situation": "神社での作法 3",
+    "do": "鳥居をくぐる前に一礼する",
+    "dont": "無礼にも参拝する",
+    "note": "参道の端を歩く",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 82,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 82.",
+    "id": "ce-082",
+    "situation": "お寺での作法 3",
+    "do": "合掌して静かにお参りする",
+    "dont": "大声で騒ぐ",
+    "note": "線香の煙を体に浴びると良いとされる",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 83,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 83.",
+    "id": "ce-083",
+    "situation": "お葬式 3",
+    "do": "黒い服を着る",
+    "dont": "派手な服を着る",
+    "note": "香典を持参する",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 84,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 84.",
+    "id": "ce-084",
+    "situation": "結婚式 3",
+    "do": "白いドレスは避ける",
+    "dont": "白いドレスを着る",
+    "note": "白は花嫁の色とされる",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 85,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 85.",
+    "id": "ce-085",
+    "situation": "入社式 3",
+    "do": "礼服で出席する",
+    "dont": "カジュアルな服装で来る",
+    "note": "第一印象が大切",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 86,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 86.",
+    "id": "ce-086",
+    "situation": "卒業式 3",
+    "do": "袴や礼服を着る",
+    "dont": "ジーンズで来る",
+    "note": "正式な場の服装マナー",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 87,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 87.",
+    "id": "ce-087",
+    "situation": "花見 3",
+    "do": "ゴミは持ち帰る",
+    "dont": "ゴミを放置して帰る",
+    "note": "公共の場所をきれいに使う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 88,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 88.",
+    "id": "ce-088",
+    "situation": "温泉・銭湯 3",
+    "do": "入浴前に体を洗う",
+    "dont": "タトゥーがある場合は確認が必要",
+    "note": "多くの施設がタトゥー禁止",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 89,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 89.",
+    "id": "ce-089",
+    "situation": "旅館 3",
+    "do": "チェックイン時に仲居さんに挨拶する",
+    "dont": "無言で部屋に入る",
+    "note": "お茶と和菓子でもてなしを受ける",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 90,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 90.",
+    "id": "ce-090",
+    "situation": "お中元・お歳暮 3",
+    "do": "お世話になった方に贈る",
+    "dont": "見返りを期待して贈る",
+    "note": "感謝の気持ちを形にする文化",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 91,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 91.",
+    "id": "ce-091",
+    "situation": "初対面の挨拶 4",
+    "do": "お辞儀をする",
+    "dont": "手を差し出して握手する",
+    "note": "お辞儀の角度は関係性による",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 92,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 92.",
+    "id": "ce-092",
+    "situation": "名刺交換 4",
+    "do": "両手で丁寧に受け取る",
+    "dont": "片手で受け取ったり即しまったりする",
+    "note": "受け取った後は大切に扱う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 93,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 93.",
+    "id": "ce-093",
+    "situation": "食事の前 4",
+    "do": "いただきますと言う",
+    "dont": "すぐ食べ始める",
+    "note": "感謝の気持ちを表す言葉",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 94,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 94.",
+    "id": "ce-094",
+    "situation": "食事の後 4",
+    "do": "ごちそうさまと言う",
+    "dont": "黙って席を立つ",
+    "note": "料理人への感謝を示す",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 95,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 95.",
+    "id": "ce-095",
+    "situation": "お箸の使い方 4",
+    "do": "箸置きに置く",
+    "dont": "碗に立てたり、渡し箸をする",
+    "note": "これらは仏事の作法と混同される",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 96,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 96.",
+    "id": "ce-096",
+    "situation": "他人の家を訪問する時 4",
+    "do": "玄関で靴を脱ぐ",
+    "dont": "靴を履いたまま上がる",
+    "note": "靴は揃えて端に置く",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 97,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 97.",
+    "id": "ce-097",
+    "situation": "電車の中 4",
+    "do": "静かに乗る",
+    "dont": "大声で電話する",
+    "note": "マナーモードに設定する",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 98,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 98.",
+    "id": "ce-098",
+    "situation": "お風呂に入る前 4",
+    "do": "体を洗ってから湯船に浸かる",
+    "dont": "汚れたまま湯船に入る",
+    "note": "湯船は皆で共有するもの",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 99,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 99.",
+    "id": "ce-099",
+    "situation": "贈り物をする時 4",
+    "do": "両手で渡す",
+    "dont": "片手で雑に渡す",
+    "note": "包装にも気を配る",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 100,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 100.",
+    "id": "ce-100",
+    "situation": "お礼を言う 4",
+    "do": "ありがとうございますと丁寧に言う",
+    "dont": "軽く会釈だけする",
+    "note": "お礼状を書くこともある",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 101,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 101.",
+    "id": "ce-101",
+    "situation": "謝る時 4",
+    "do": "申し訳ございませんと深くお辞儀する",
+    "dont": "軽くすみませんと言うだけ",
+    "note": "誠意を見せることが大切",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 102,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 102.",
+    "id": "ce-102",
+    "situation": "会議中 4",
+    "do": "発言は挙手して順番を守る",
+    "dont": "他人の発言を遮る",
+    "note": "根回しを事前にしておく",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 103,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 103.",
+    "id": "ce-103",
+    "situation": "年上への敬語 4",
+    "do": "敬語を使う",
+    "dont": "タメ口で話す",
+    "note": "年齢差が少しでもあれば注意",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 104,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 104.",
+    "id": "ce-104",
+    "situation": "乾杯の時 4",
+    "do": "グラスを合わせる",
+    "dont": "自分だけ飲み始める",
+    "note": "目上の人のグラスより低くする",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 105,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 105.",
+    "id": "ce-105",
+    "situation": "お酒の席 4",
+    "do": "人のグラスが空いたら注ぐ",
+    "dont": "自分だけどんどん飲む",
+    "note": "断る時は「結構です」と言う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 106,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 106.",
+    "id": "ce-106",
+    "situation": "病院の待合室 4",
+    "do": "静かに待つ",
+    "dont": "大声で話す",
+    "note": "携帯の使用も控えめに",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 107,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 107.",
+    "id": "ce-107",
+    "situation": "図書館 4",
+    "do": "静かに本を読む",
+    "dont": "大声で話す",
+    "note": "本は丁寧に扱う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 108,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 108.",
+    "id": "ce-108",
+    "situation": "エレベーター 4",
+    "do": "ドアを押さえて待つ",
+    "dont": "さっさと乗り込む",
+    "note": "降りる人が先",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 109,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 109.",
+    "id": "ce-109",
+    "situation": "電車のドア 4",
+    "do": "ドアが開いたら端に寄る",
+    "dont": "ドアの前に立ち塞がる",
+    "note": "スムーズな乗降を心がける",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 110,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 110.",
+    "id": "ce-110",
+    "situation": "バスの中 4",
+    "do": "座席は必要な人に譲る",
+    "dont": "優先席に若者が座る",
+    "note": "高齢者・妊婦・障害者を優先",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 111,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 111.",
+    "id": "ce-111",
+    "situation": "神社での作法 4",
+    "do": "鳥居をくぐる前に一礼する",
+    "dont": "無礼にも参拝する",
+    "note": "参道の端を歩く",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 112,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 112.",
+    "id": "ce-112",
+    "situation": "お寺での作法 4",
+    "do": "合掌して静かにお参りする",
+    "dont": "大声で騒ぐ",
+    "note": "線香の煙を体に浴びると良いとされる",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 113,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 113.",
+    "id": "ce-113",
+    "situation": "お葬式 4",
+    "do": "黒い服を着る",
+    "dont": "派手な服を着る",
+    "note": "香典を持参する",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 114,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 114.",
+    "id": "ce-114",
+    "situation": "結婚式 4",
+    "do": "白いドレスは避ける",
+    "dont": "白いドレスを着る",
+    "note": "白は花嫁の色とされる",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 115,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 115.",
+    "id": "ce-115",
+    "situation": "入社式 4",
+    "do": "礼服で出席する",
+    "dont": "カジュアルな服装で来る",
+    "note": "第一印象が大切",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 116,
-    "situation": "Entering someone's home",
-    "do": "Say \"ojama shimasu\" before entering.",
-    "dont": "Do not walk in with shoes on.",
-    "note": "Shows respect for the host. Entry 116.",
+    "id": "ce-116",
+    "situation": "卒業式 4",
+    "do": "袴や礼服を着る",
+    "dont": "ジーンズで来る",
+    "note": "正式な場の服装マナー",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 117,
-    "situation": "On trains",
-    "do": "Keep phone calls minimal and speak quietly.",
-    "dont": "Do not talk loudly or block doors.",
-    "note": "Public quiet is expected. Entry 117.",
+    "id": "ce-117",
+    "situation": "花見 4",
+    "do": "ゴミは持ち帰る",
+    "dont": "ゴミを放置して帰る",
+    "note": "公共の場所をきれいに使う",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 118,
-    "situation": "Gift giving",
-    "do": "Offer gifts with both hands.",
-    "dont": "Do not open a gift immediately unless invited.",
-    "note": "Politeness conventions vary by context. Entry 118.",
+    "id": "ce-118",
+    "situation": "温泉・銭湯 4",
+    "do": "入浴前に体を洗う",
+    "dont": "タトゥーがある場合は確認が必要",
+    "note": "多くの施設がタトゥー禁止",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 119,
-    "situation": "Business cards",
-    "do": "Receive cards with both hands and read them.",
-    "dont": "Do not put cards in your pocket immediately.",
-    "note": "Treat cards as extensions of identity. Entry 119.",
+    "id": "ce-119",
+    "situation": "旅館 4",
+    "do": "チェックイン時に仲居さんに挨拶する",
+    "dont": "無言で部屋に入る",
+    "note": "お茶と和菓子でもてなしを受ける",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 120,
-    "situation": "Temple visits",
-    "do": "Purify hands at the chozuya when available.",
-    "dont": "Do not be disruptive during prayer.",
-    "note": "Follow posted rules and flow. Entry 120.",
+    "id": "ce-120",
+    "situation": "お中元・お歳暮 4",
+    "do": "お世話になった方に贈る",
+    "dont": "見返りを期待して贈る",
+    "note": "感謝の気持ちを形にする文化",
     "issued": false,
-    "completed": true
+    "completed": false
   }
 ]

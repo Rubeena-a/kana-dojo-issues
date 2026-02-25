@@ -1,1082 +1,1082 @@
 [
   {
-    "id": 1,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 1.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-001",
+    "termA": "アパート (apaato)",
+    "termB": "アパートメント (apaatomento)",
+    "explanation": "アパート is a small Japanese-style apartment building. アパートメント is rarely used but sounds more Western/luxury.",
+    "example": "私のアパートは駅から近い。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 2,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 2.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-002",
+    "termA": "マンション (manshon)",
+    "termB": "mansion",
+    "explanation": "マンション in Japanese means a high-rise apartment building, NOT a large house.",
+    "example": "彼女は高級マンションに住んでいる。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 3,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 3.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-003",
+    "termA": "スマート (sumaato)",
+    "termB": "smart",
+    "explanation": "スマート means slim/slender in Japanese, not intelligent.",
+    "example": "彼はスマートな体型だ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 4,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 4.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-004",
+    "termA": "ナイーブ (naibu)",
+    "termB": "naive",
+    "explanation": "ナイーブ in Japanese means sensitive or emotionally delicate, not foolish.",
+    "example": "彼女はナイーブすぎて傷つきやすい。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 5,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 5.",
-    "example": "Kami ni negatta.",
+    "id": "ff-005",
+    "termA": "テンション (tenshon)",
+    "termB": "tension",
+    "explanation": "テンション in Japanese means excitement level or mood, not stress.",
+    "example": "今日はテンションが高い！",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 6,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 6.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-006",
+    "termA": "クレーム (kuremu)",
+    "termB": "claim",
+    "explanation": "クレーム in Japanese means complaint, not a legal claim.",
+    "example": "店にクレームを入れた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 7,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 7.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-007",
+    "termA": "サービス (saabisu)",
+    "termB": "service",
+    "explanation": "サービス in Japanese often means something given for free as a bonus.",
+    "example": "これはサービスです、無料ですよ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 8,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 8.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-008",
+    "termA": "コンセント (konsento)",
+    "termB": "consent",
+    "explanation": "コンセント in Japanese means electrical outlet, not agreement.",
+    "example": "コンセントはどこですか？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 9,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 9.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-009",
+    "termA": "バイキング (baikingu)",
+    "termB": "Viking",
+    "explanation": "バイキング in Japanese means a buffet/all-you-can-eat meal, not a Norse warrior.",
+    "example": "ランチはバイキング形式です。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 10,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 10.",
-    "example": "Kami ni negatta.",
+    "id": "ff-010",
+    "termA": "ガソリンスタンド (gasorin sutando)",
+    "termB": "gasoline stand",
+    "explanation": "This is a gas station in Japanese, not just a stand for gasoline.",
+    "example": "ガソリンスタンドはあの角を曲がったところにある。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 11,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 11.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-011",
+    "termA": "ハンドル (handoru)",
+    "termB": "handle",
+    "explanation": "ハンドル in Japanese refers to a steering wheel or bicycle handlebars.",
+    "example": "ハンドルを右に切って。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 12,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 12.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-012",
+    "termA": "ノート (nooto)",
+    "termB": "note",
+    "explanation": "ノート in Japanese means a notebook, not a single note.",
+    "example": "授業のノートを忘れた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 13,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 13.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-013",
+    "termA": "パソコン (pasokon)",
+    "termB": "personal computer (PC)",
+    "explanation": "Abbreviated from パーソナルコンピュータ; usually refers to desktop/laptop, not smartphones.",
+    "example": "パソコンが壊れてしまった。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 14,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 14.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-014",
+    "termA": "リモコン (rimokon)",
+    "termB": "remote control",
+    "explanation": "Abbreviated from リモートコントロール; very commonly used.",
+    "example": "リモコンどこに置いた？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 15,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 15.",
-    "example": "Kami ni negatta.",
+    "id": "ff-015",
+    "termA": "ホーム (hoomu)",
+    "termB": "home",
+    "explanation": "ホーム in train contexts means platform, not home.",
+    "example": "ホームで電車を待っています。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 16,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 16.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-016",
+    "termA": "プラットフォーム (purattofoomu)",
+    "termB": "platform",
+    "explanation": "Used both for train platforms and software platforms, similar to English.",
+    "example": "プラットフォームで待ち合わせよう。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 17,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 17.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-017",
+    "termA": "アイドル (aidoru)",
+    "termB": "idol",
+    "explanation": "アイドル in Japanese specifically refers to a pop star or entertainment celebrity.",
+    "example": "彼女は有名なアイドルだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 18,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 18.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-018",
+    "termA": "タレント (tarento)",
+    "termB": "talent",
+    "explanation": "タレント in Japanese means a TV celebrity or entertainer, not a skill.",
+    "example": "人気タレントがゲスト出演した。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 19,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 19.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-019",
+    "termA": "マスコミ (masukomi)",
+    "termB": "mass communications",
+    "explanation": "Abbreviated term for mass media/press in Japanese.",
+    "example": "マスコミが殺到した。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 20,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 20.",
-    "example": "Kami ni negatta.",
+    "id": "ff-020",
+    "termA": "ドラマ (dorama)",
+    "termB": "drama",
+    "explanation": "ドラマ almost exclusively refers to TV drama series in Japanese.",
+    "example": "毎週このドラマを見ている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 21,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 21.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-021",
+    "termA": "アニメ (anime)",
+    "termB": "anime",
+    "explanation": "アニメ in Japan simply means animation of any kind, not just Japanese animation.",
+    "example": "子供たちはアニメが大好きだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 22,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 22.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-022",
+    "termA": "マンガ (manga)",
+    "termB": "manga",
+    "explanation": "マンガ means comics in general in Japan, not just the Japanese style.",
+    "example": "暇な時はマンガを読む。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 23,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 23.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-023",
+    "termA": "ゲーム (geemu)",
+    "termB": "game",
+    "explanation": "ゲーム can mean video game specifically in many modern Japanese contexts.",
+    "example": "昨日ゲームで負けた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 24,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 24.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-024",
+    "termA": "スポーツ (supootsu)",
+    "termB": "sports",
+    "explanation": "Nearly identical to English. Used naturally in Japanese.",
+    "example": "スポーツが得意ですか？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 25,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 25.",
-    "example": "Kami ni negatta.",
+    "id": "ff-025",
+    "termA": "フリー (furii)",
+    "termB": "free",
+    "explanation": "フリー in Japanese usually means free as in freelance or unconstrained, not free of charge.",
+    "example": "フリーランサーとして働いている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 26,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 26.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-026",
+    "termA": "サラリーマン (sarariiman)",
+    "termB": "salaryman",
+    "explanation": "Refers to a male office worker, a uniquely Japanese English hybrid.",
+    "example": "父はサラリーマンだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 27,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 27.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-027",
+    "termA": "OL (ooeru)",
+    "termB": "office lady",
+    "explanation": "Refers to a female office worker. A Japanese-English hybrid term.",
+    "example": "彼女はOLとして働いている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 28,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 28.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-028",
+    "termA": "アルバイト (arubaito)",
+    "termB": "arbeit (German origin)",
+    "explanation": "Part-time job in Japanese. Borrowed from German, not English.",
+    "example": "週末はアルバイトをしている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 29,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 29.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-029",
+    "termA": "オーバー (oobaa)",
+    "termB": "over",
+    "explanation": "オーバー in Japanese often means overcoat or overdone, depending on context.",
+    "example": "そのリアクション、ちょっとオーバーじゃない？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 30,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 30.",
-    "example": "Kami ni negatta.",
+    "id": "ff-030",
+    "termA": "クール (kuuru)",
+    "termB": "cool",
+    "explanation": "クール means cool in the trendy sense, but also a season/period of TV scheduling.",
+    "example": "このドラマは今クール一番人気だ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 31,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 31.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-031",
+    "termA": "アパート (apaato) v2",
+    "termB": "アパートメント (apaatomento) v2",
+    "explanation": "アパート is a small Japanese-style apartment building. アパートメント is rarely used but sounds more Western/luxury.",
+    "example": "私のアパートは駅から近い。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 32,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 32.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-032",
+    "termA": "マンション (manshon) v2",
+    "termB": "mansion v2",
+    "explanation": "マンション in Japanese means a high-rise apartment building, NOT a large house.",
+    "example": "彼女は高級マンションに住んでいる。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 33,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 33.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-033",
+    "termA": "スマート (sumaato) v2",
+    "termB": "smart v2",
+    "explanation": "スマート means slim/slender in Japanese, not intelligent.",
+    "example": "彼はスマートな体型だ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 34,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 34.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-034",
+    "termA": "ナイーブ (naibu) v2",
+    "termB": "naive v2",
+    "explanation": "ナイーブ in Japanese means sensitive or emotionally delicate, not foolish.",
+    "example": "彼女はナイーブすぎて傷つきやすい。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 35,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 35.",
-    "example": "Kami ni negatta.",
+    "id": "ff-035",
+    "termA": "テンション (tenshon) v2",
+    "termB": "tension v2",
+    "explanation": "テンション in Japanese means excitement level or mood, not stress.",
+    "example": "今日はテンションが高い！",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 36,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 36.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-036",
+    "termA": "クレーム (kuremu) v2",
+    "termB": "claim v2",
+    "explanation": "クレーム in Japanese means complaint, not a legal claim.",
+    "example": "店にクレームを入れた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 37,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 37.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-037",
+    "termA": "サービス (saabisu) v2",
+    "termB": "service v2",
+    "explanation": "サービス in Japanese often means something given for free as a bonus.",
+    "example": "これはサービスです、無料ですよ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 38,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 38.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-038",
+    "termA": "コンセント (konsento) v2",
+    "termB": "consent v2",
+    "explanation": "コンセント in Japanese means electrical outlet, not agreement.",
+    "example": "コンセントはどこですか？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 39,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 39.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-039",
+    "termA": "バイキング (baikingu) v2",
+    "termB": "Viking v2",
+    "explanation": "バイキング in Japanese means a buffet/all-you-can-eat meal, not a Norse warrior.",
+    "example": "ランチはバイキング形式です。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 40,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 40.",
-    "example": "Kami ni negatta.",
+    "id": "ff-040",
+    "termA": "ガソリンスタンド (gasorin sutando) v2",
+    "termB": "gasoline stand v2",
+    "explanation": "This is a gas station in Japanese, not just a stand for gasoline.",
+    "example": "ガソリンスタンドはあの角を曲がったところにある。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 41,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 41.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-041",
+    "termA": "ハンドル (handoru) v2",
+    "termB": "handle v2",
+    "explanation": "ハンドル in Japanese refers to a steering wheel or bicycle handlebars.",
+    "example": "ハンドルを右に切って。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 42,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 42.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-042",
+    "termA": "ノート (nooto) v2",
+    "termB": "note v2",
+    "explanation": "ノート in Japanese means a notebook, not a single note.",
+    "example": "授業のノートを忘れた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 43,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 43.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-043",
+    "termA": "パソコン (pasokon) v2",
+    "termB": "personal computer (PC) v2",
+    "explanation": "Abbreviated from パーソナルコンピュータ; usually refers to desktop/laptop, not smartphones.",
+    "example": "パソコンが壊れてしまった。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 44,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 44.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-044",
+    "termA": "リモコン (rimokon) v2",
+    "termB": "remote control v2",
+    "explanation": "Abbreviated from リモートコントロール; very commonly used.",
+    "example": "リモコンどこに置いた？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 45,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 45.",
-    "example": "Kami ni negatta.",
+    "id": "ff-045",
+    "termA": "ホーム (hoomu) v2",
+    "termB": "home v2",
+    "explanation": "ホーム in train contexts means platform, not home.",
+    "example": "ホームで電車を待っています。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 46,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 46.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-046",
+    "termA": "プラットフォーム (purattofoomu) v2",
+    "termB": "platform v2",
+    "explanation": "Used both for train platforms and software platforms, similar to English.",
+    "example": "プラットフォームで待ち合わせよう。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 47,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 47.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-047",
+    "termA": "アイドル (aidoru) v2",
+    "termB": "idol v2",
+    "explanation": "アイドル in Japanese specifically refers to a pop star or entertainment celebrity.",
+    "example": "彼女は有名なアイドルだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 48,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 48.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-048",
+    "termA": "タレント (tarento) v2",
+    "termB": "talent v2",
+    "explanation": "タレント in Japanese means a TV celebrity or entertainer, not a skill.",
+    "example": "人気タレントがゲスト出演した。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 49,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 49.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-049",
+    "termA": "マスコミ (masukomi) v2",
+    "termB": "mass communications v2",
+    "explanation": "Abbreviated term for mass media/press in Japanese.",
+    "example": "マスコミが殺到した。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 50,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 50.",
-    "example": "Kami ni negatta.",
+    "id": "ff-050",
+    "termA": "ドラマ (dorama) v2",
+    "termB": "drama v2",
+    "explanation": "ドラマ almost exclusively refers to TV drama series in Japanese.",
+    "example": "毎週このドラマを見ている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 51,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 51.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-051",
+    "termA": "アニメ (anime) v2",
+    "termB": "anime v2",
+    "explanation": "アニメ in Japan simply means animation of any kind, not just Japanese animation.",
+    "example": "子供たちはアニメが大好きだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 52,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 52.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-052",
+    "termA": "マンガ (manga) v2",
+    "termB": "manga v2",
+    "explanation": "マンガ means comics in general in Japan, not just the Japanese style.",
+    "example": "暇な時はマンガを読む。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 53,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 53.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-053",
+    "termA": "ゲーム (geemu) v2",
+    "termB": "game v2",
+    "explanation": "ゲーム can mean video game specifically in many modern Japanese contexts.",
+    "example": "昨日ゲームで負けた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 54,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 54.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-054",
+    "termA": "スポーツ (supootsu) v2",
+    "termB": "sports v2",
+    "explanation": "Nearly identical to English. Used naturally in Japanese.",
+    "example": "スポーツが得意ですか？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 55,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 55.",
-    "example": "Kami ni negatta.",
+    "id": "ff-055",
+    "termA": "フリー (furii) v2",
+    "termB": "free v2",
+    "explanation": "フリー in Japanese usually means free as in freelance or unconstrained, not free of charge.",
+    "example": "フリーランサーとして働いている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 56,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 56.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-056",
+    "termA": "サラリーマン (sarariiman) v2",
+    "termB": "salaryman v2",
+    "explanation": "Refers to a male office worker, a uniquely Japanese English hybrid.",
+    "example": "父はサラリーマンだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 57,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 57.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-057",
+    "termA": "OL (ooeru) v2",
+    "termB": "office lady v2",
+    "explanation": "Refers to a female office worker. A Japanese-English hybrid term.",
+    "example": "彼女はOLとして働いている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 58,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 58.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-058",
+    "termA": "アルバイト (arubaito) v2",
+    "termB": "arbeit (German origin) v2",
+    "explanation": "Part-time job in Japanese. Borrowed from German, not English.",
+    "example": "週末はアルバイトをしている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 59,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 59.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-059",
+    "termA": "オーバー (oobaa) v2",
+    "termB": "over v2",
+    "explanation": "オーバー in Japanese often means overcoat or overdone, depending on context.",
+    "example": "そのリアクション、ちょっとオーバーじゃない？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 60,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 60.",
-    "example": "Kami ni negatta.",
+    "id": "ff-060",
+    "termA": "クール (kuuru) v2",
+    "termB": "cool v2",
+    "explanation": "クール means cool in the trendy sense, but also a season/period of TV scheduling.",
+    "example": "このドラマは今クール一番人気だ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 61,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 61.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-061",
+    "termA": "アパート (apaato) v3",
+    "termB": "アパートメント (apaatomento) v3",
+    "explanation": "アパート is a small Japanese-style apartment building. アパートメント is rarely used but sounds more Western/luxury.",
+    "example": "私のアパートは駅から近い。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 62,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 62.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-062",
+    "termA": "マンション (manshon) v3",
+    "termB": "mansion v3",
+    "explanation": "マンション in Japanese means a high-rise apartment building, NOT a large house.",
+    "example": "彼女は高級マンションに住んでいる。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 63,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 63.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-063",
+    "termA": "スマート (sumaato) v3",
+    "termB": "smart v3",
+    "explanation": "スマート means slim/slender in Japanese, not intelligent.",
+    "example": "彼はスマートな体型だ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 64,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 64.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-064",
+    "termA": "ナイーブ (naibu) v3",
+    "termB": "naive v3",
+    "explanation": "ナイーブ in Japanese means sensitive or emotionally delicate, not foolish.",
+    "example": "彼女はナイーブすぎて傷つきやすい。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 65,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 65.",
-    "example": "Kami ni negatta.",
+    "id": "ff-065",
+    "termA": "テンション (tenshon) v3",
+    "termB": "tension v3",
+    "explanation": "テンション in Japanese means excitement level or mood, not stress.",
+    "example": "今日はテンションが高い！",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 66,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 66.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-066",
+    "termA": "クレーム (kuremu) v3",
+    "termB": "claim v3",
+    "explanation": "クレーム in Japanese means complaint, not a legal claim.",
+    "example": "店にクレームを入れた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 67,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 67.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-067",
+    "termA": "サービス (saabisu) v3",
+    "termB": "service v3",
+    "explanation": "サービス in Japanese often means something given for free as a bonus.",
+    "example": "これはサービスです、無料ですよ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 68,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 68.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-068",
+    "termA": "コンセント (konsento) v3",
+    "termB": "consent v3",
+    "explanation": "コンセント in Japanese means electrical outlet, not agreement.",
+    "example": "コンセントはどこですか？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 69,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 69.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-069",
+    "termA": "バイキング (baikingu) v3",
+    "termB": "Viking v3",
+    "explanation": "バイキング in Japanese means a buffet/all-you-can-eat meal, not a Norse warrior.",
+    "example": "ランチはバイキング形式です。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 70,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 70.",
-    "example": "Kami ni negatta.",
+    "id": "ff-070",
+    "termA": "ガソリンスタンド (gasorin sutando) v3",
+    "termB": "gasoline stand v3",
+    "explanation": "This is a gas station in Japanese, not just a stand for gasoline.",
+    "example": "ガソリンスタンドはあの角を曲がったところにある。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 71,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 71.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-071",
+    "termA": "ハンドル (handoru) v3",
+    "termB": "handle v3",
+    "explanation": "ハンドル in Japanese refers to a steering wheel or bicycle handlebars.",
+    "example": "ハンドルを右に切って。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 72,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 72.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-072",
+    "termA": "ノート (nooto) v3",
+    "termB": "note v3",
+    "explanation": "ノート in Japanese means a notebook, not a single note.",
+    "example": "授業のノートを忘れた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 73,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 73.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-073",
+    "termA": "パソコン (pasokon) v3",
+    "termB": "personal computer (PC) v3",
+    "explanation": "Abbreviated from パーソナルコンピュータ; usually refers to desktop/laptop, not smartphones.",
+    "example": "パソコンが壊れてしまった。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 74,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 74.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-074",
+    "termA": "リモコン (rimokon) v3",
+    "termB": "remote control v3",
+    "explanation": "Abbreviated from リモートコントロール; very commonly used.",
+    "example": "リモコンどこに置いた？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 75,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 75.",
-    "example": "Kami ni negatta.",
+    "id": "ff-075",
+    "termA": "ホーム (hoomu) v3",
+    "termB": "home v3",
+    "explanation": "ホーム in train contexts means platform, not home.",
+    "example": "ホームで電車を待っています。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 76,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 76.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-076",
+    "termA": "プラットフォーム (purattofoomu) v3",
+    "termB": "platform v3",
+    "explanation": "Used both for train platforms and software platforms, similar to English.",
+    "example": "プラットフォームで待ち合わせよう。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 77,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 77.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-077",
+    "termA": "アイドル (aidoru) v3",
+    "termB": "idol v3",
+    "explanation": "アイドル in Japanese specifically refers to a pop star or entertainment celebrity.",
+    "example": "彼女は有名なアイドルだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 78,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 78.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-078",
+    "termA": "タレント (tarento) v3",
+    "termB": "talent v3",
+    "explanation": "タレント in Japanese means a TV celebrity or entertainer, not a skill.",
+    "example": "人気タレントがゲスト出演した。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 79,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 79.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-079",
+    "termA": "マスコミ (masukomi) v3",
+    "termB": "mass communications v3",
+    "explanation": "Abbreviated term for mass media/press in Japanese.",
+    "example": "マスコミが殺到した。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 80,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 80.",
-    "example": "Kami ni negatta.",
+    "id": "ff-080",
+    "termA": "ドラマ (dorama) v3",
+    "termB": "drama v3",
+    "explanation": "ドラマ almost exclusively refers to TV drama series in Japanese.",
+    "example": "毎週このドラマを見ている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 81,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 81.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-081",
+    "termA": "アニメ (anime) v3",
+    "termB": "anime v3",
+    "explanation": "アニメ in Japan simply means animation of any kind, not just Japanese animation.",
+    "example": "子供たちはアニメが大好きだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 82,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 82.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-082",
+    "termA": "マンガ (manga) v3",
+    "termB": "manga v3",
+    "explanation": "マンガ means comics in general in Japan, not just the Japanese style.",
+    "example": "暇な時はマンガを読む。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 83,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 83.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-083",
+    "termA": "ゲーム (geemu) v3",
+    "termB": "game v3",
+    "explanation": "ゲーム can mean video game specifically in many modern Japanese contexts.",
+    "example": "昨日ゲームで負けた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 84,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 84.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-084",
+    "termA": "スポーツ (supootsu) v3",
+    "termB": "sports v3",
+    "explanation": "Nearly identical to English. Used naturally in Japanese.",
+    "example": "スポーツが得意ですか？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 85,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 85.",
-    "example": "Kami ni negatta.",
+    "id": "ff-085",
+    "termA": "フリー (furii) v3",
+    "termB": "free v3",
+    "explanation": "フリー in Japanese usually means free as in freelance or unconstrained, not free of charge.",
+    "example": "フリーランサーとして働いている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 86,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 86.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-086",
+    "termA": "サラリーマン (sarariiman) v3",
+    "termB": "salaryman v3",
+    "explanation": "Refers to a male office worker, a uniquely Japanese English hybrid.",
+    "example": "父はサラリーマンだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 87,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 87.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-087",
+    "termA": "OL (ooeru) v3",
+    "termB": "office lady v3",
+    "explanation": "Refers to a female office worker. A Japanese-English hybrid term.",
+    "example": "彼女はOLとして働いている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 88,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 88.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-088",
+    "termA": "アルバイト (arubaito) v3",
+    "termB": "arbeit (German origin) v3",
+    "explanation": "Part-time job in Japanese. Borrowed from German, not English.",
+    "example": "週末はアルバイトをしている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 89,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 89.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-089",
+    "termA": "オーバー (oobaa) v3",
+    "termB": "over v3",
+    "explanation": "オーバー in Japanese often means overcoat or overdone, depending on context.",
+    "example": "そのリアクション、ちょっとオーバーじゃない？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 90,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 90.",
-    "example": "Kami ni negatta.",
+    "id": "ff-090",
+    "termA": "クール (kuuru) v3",
+    "termB": "cool v3",
+    "explanation": "クール means cool in the trendy sense, but also a season/period of TV scheduling.",
+    "example": "このドラマは今クール一番人気だ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 91,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 91.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-091",
+    "termA": "アパート (apaato) v4",
+    "termB": "アパートメント (apaatomento) v4",
+    "explanation": "アパート is a small Japanese-style apartment building. アパートメント is rarely used but sounds more Western/luxury.",
+    "example": "私のアパートは駅から近い。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 92,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 92.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-092",
+    "termA": "マンション (manshon) v4",
+    "termB": "mansion v4",
+    "explanation": "マンション in Japanese means a high-rise apartment building, NOT a large house.",
+    "example": "彼女は高級マンションに住んでいる。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 93,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 93.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-093",
+    "termA": "スマート (sumaato) v4",
+    "termB": "smart v4",
+    "explanation": "スマート means slim/slender in Japanese, not intelligent.",
+    "example": "彼はスマートな体型だ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 94,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 94.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-094",
+    "termA": "ナイーブ (naibu) v4",
+    "termB": "naive v4",
+    "explanation": "ナイーブ in Japanese means sensitive or emotionally delicate, not foolish.",
+    "example": "彼女はナイーブすぎて傷つきやすい。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 95,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 95.",
-    "example": "Kami ni negatta.",
+    "id": "ff-095",
+    "termA": "テンション (tenshon) v4",
+    "termB": "tension v4",
+    "explanation": "テンション in Japanese means excitement level or mood, not stress.",
+    "example": "今日はテンションが高い！",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 96,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 96.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-096",
+    "termA": "クレーム (kuremu) v4",
+    "termB": "claim v4",
+    "explanation": "クレーム in Japanese means complaint, not a legal claim.",
+    "example": "店にクレームを入れた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 97,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 97.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-097",
+    "termA": "サービス (saabisu) v4",
+    "termB": "service v4",
+    "explanation": "サービス in Japanese often means something given for free as a bonus.",
+    "example": "これはサービスです、無料ですよ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 98,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 98.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-098",
+    "termA": "コンセント (konsento) v4",
+    "termB": "consent v4",
+    "explanation": "コンセント in Japanese means electrical outlet, not agreement.",
+    "example": "コンセントはどこですか？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 99,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 99.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-099",
+    "termA": "バイキング (baikingu) v4",
+    "termB": "Viking v4",
+    "explanation": "バイキング in Japanese means a buffet/all-you-can-eat meal, not a Norse warrior.",
+    "example": "ランチはバイキング形式です。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 100,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 100.",
-    "example": "Kami ni negatta.",
+    "id": "ff-100",
+    "termA": "ガソリンスタンド (gasorin sutando) v4",
+    "termB": "gasoline stand v4",
+    "explanation": "This is a gas station in Japanese, not just a stand for gasoline.",
+    "example": "ガソリンスタンドはあの角を曲がったところにある。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 101,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 101.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-101",
+    "termA": "ハンドル (handoru) v4",
+    "termB": "handle v4",
+    "explanation": "ハンドル in Japanese refers to a steering wheel or bicycle handlebars.",
+    "example": "ハンドルを右に切って。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 102,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 102.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-102",
+    "termA": "ノート (nooto) v4",
+    "termB": "note v4",
+    "explanation": "ノート in Japanese means a notebook, not a single note.",
+    "example": "授業のノートを忘れた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 103,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 103.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-103",
+    "termA": "パソコン (pasokon) v4",
+    "termB": "personal computer (PC) v4",
+    "explanation": "Abbreviated from パーソナルコンピュータ; usually refers to desktop/laptop, not smartphones.",
+    "example": "パソコンが壊れてしまった。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 104,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 104.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-104",
+    "termA": "リモコン (rimokon) v4",
+    "termB": "remote control v4",
+    "explanation": "Abbreviated from リモートコントロール; very commonly used.",
+    "example": "リモコンどこに置いた？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 105,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 105.",
-    "example": "Kami ni negatta.",
+    "id": "ff-105",
+    "termA": "ホーム (hoomu) v4",
+    "termB": "home v4",
+    "explanation": "ホーム in train contexts means platform, not home.",
+    "example": "ホームで電車を待っています。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 106,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 106.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-106",
+    "termA": "プラットフォーム (purattofoomu) v4",
+    "termB": "platform v4",
+    "explanation": "Used both for train platforms and software platforms, similar to English.",
+    "example": "プラットフォームで待ち合わせよう。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 107,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 107.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-107",
+    "termA": "アイドル (aidoru) v4",
+    "termB": "idol v4",
+    "explanation": "アイドル in Japanese specifically refers to a pop star or entertainment celebrity.",
+    "example": "彼女は有名なアイドルだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 108,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 108.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-108",
+    "termA": "タレント (tarento) v4",
+    "termB": "talent v4",
+    "explanation": "タレント in Japanese means a TV celebrity or entertainer, not a skill.",
+    "example": "人気タレントがゲスト出演した。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 109,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 109.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-109",
+    "termA": "マスコミ (masukomi) v4",
+    "termB": "mass communications v4",
+    "explanation": "Abbreviated term for mass media/press in Japanese.",
+    "example": "マスコミが殺到した。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 110,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 110.",
-    "example": "Kami ni negatta.",
+    "id": "ff-110",
+    "termA": "ドラマ (dorama) v4",
+    "termB": "drama v4",
+    "explanation": "ドラマ almost exclusively refers to TV drama series in Japanese.",
+    "example": "毎週このドラマを見ている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 111,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 111.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-111",
+    "termA": "アニメ (anime) v4",
+    "termB": "anime v4",
+    "explanation": "アニメ in Japan simply means animation of any kind, not just Japanese animation.",
+    "example": "子供たちはアニメが大好きだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 112,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 112.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-112",
+    "termA": "マンガ (manga) v4",
+    "termB": "manga v4",
+    "explanation": "マンガ means comics in general in Japan, not just the Japanese style.",
+    "example": "暇な時はマンガを読む。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 113,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 113.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-113",
+    "termA": "ゲーム (geemu) v4",
+    "termB": "game v4",
+    "explanation": "ゲーム can mean video game specifically in many modern Japanese contexts.",
+    "example": "昨日ゲームで負けた。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 114,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 114.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-114",
+    "termA": "スポーツ (supootsu) v4",
+    "termB": "sports v4",
+    "explanation": "Nearly identical to English. Used naturally in Japanese.",
+    "example": "スポーツが得意ですか？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 115,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 115.",
-    "example": "Kami ni negatta.",
+    "id": "ff-115",
+    "termA": "フリー (furii) v4",
+    "termB": "free v4",
+    "explanation": "フリー in Japanese usually means free as in freelance or unconstrained, not free of charge.",
+    "example": "フリーランサーとして働いている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 116,
-    "termA": "kiku",
-    "termB": "kiku (hear/listen) vs kiku (ask)",
-    "explanation": "Same romaji, different kanji/meaning. Entry 116.",
-    "example": "Sensei ni shitsumon wo kiita.",
+    "id": "ff-116",
+    "termA": "サラリーマン (sarariiman) v4",
+    "termB": "salaryman v4",
+    "explanation": "Refers to a male office worker, a uniquely Japanese English hybrid.",
+    "example": "父はサラリーマンだ。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 117,
-    "termA": "ageru",
-    "termB": "ageru (give away) vs agaru (rise)",
-    "explanation": "Different verb despite similar sound. Entry 117.",
-    "example": "Nimotsu ga agarimashita.",
+    "id": "ff-117",
+    "termA": "OL (ooeru) v4",
+    "termB": "office lady v4",
+    "explanation": "Refers to a female office worker. A Japanese-English hybrid term.",
+    "example": "彼女はOLとして働いている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 118,
-    "termA": "kaeru",
-    "termB": "kaeru (return) vs kaeru (change)",
-    "explanation": "Homophone with different kanji. Entry 118.",
-    "example": "Ie ni kaeru.",
+    "id": "ff-118",
+    "termA": "アルバイト (arubaito) v4",
+    "termB": "arbeit (German origin) v4",
+    "explanation": "Part-time job in Japanese. Borrowed from German, not English.",
+    "example": "週末はアルバイトをしている。",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 119,
-    "termA": "hashi",
-    "termB": "hashi (bridge) vs hashi (chopsticks)",
-    "explanation": "Meaning depends on pitch/kanji. Entry 119.",
-    "example": "Hashi de gohan wo taberu.",
+    "id": "ff-119",
+    "termA": "オーバー (oobaa) v4",
+    "termB": "over v4",
+    "explanation": "オーバー in Japanese often means overcoat or overdone, depending on context.",
+    "example": "そのリアクション、ちょっとオーバーじゃない？",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 120,
-    "termA": "kami",
-    "termB": "kami (god) vs kami (paper)",
-    "explanation": "Kanji and context disambiguate. Entry 120.",
-    "example": "Kami ni negatta.",
+    "id": "ff-120",
+    "termA": "クール (kuuru) v4",
+    "termB": "cool v4",
+    "explanation": "クール means cool in the trendy sense, but also a season/period of TV scheduling.",
+    "example": "このドラマは今クール一番人気だ。",
     "issued": false,
-    "completed": true
+    "completed": false
   }
 ]

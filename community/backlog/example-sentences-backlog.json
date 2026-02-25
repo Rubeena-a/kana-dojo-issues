@@ -1,1082 +1,1082 @@
 [
   {
-    "id": 1,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
+    "id": "es-001",
+    "japanese": "今日はいい天気ですね。",
+    "romaji": "Kyou wa ii tenki desu ne.",
+    "english": "The weather is nice today, isn't it?",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 2,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
+    "id": "es-002",
+    "japanese": "電車が遅れています。",
+    "romaji": "Densha ga okurete imasu.",
+    "english": "The train is running late.",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 3,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-003",
+    "japanese": "すみません、駅はどこですか？",
+    "romaji": "Sumimasen, eki wa doko desu ka?",
+    "english": "Excuse me, where is the station?",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-004",
+    "japanese": "この本は面白いです。",
+    "romaji": "Kono hon wa omoshiroi desu.",
+    "english": "This book is interesting.",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-005",
+    "japanese": "明日は早く起きなければなりません。",
+    "romaji": "Ashita wa hayaku okinakereba narimasen.",
+    "english": "I have to wake up early tomorrow.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 4,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 5,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 6,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 7,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 8,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-006",
+    "japanese": "彼女はとても親切にしてくれました。",
+    "romaji": "Kanojo wa totemo shinsetsu ni shite kuremashita.",
+    "english": "She was very kind to me.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 9,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 10,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 11,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 12,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 13,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-007",
+    "japanese": "この映画を見たことがありますか？",
+    "romaji": "Kono eiga wo mita koto ga arimasu ka?",
+    "english": "Have you seen this movie before?",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 14,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 15,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 16,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 17,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 18,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-008",
+    "japanese": "もっとゆっくり話してもらえますか？",
+    "romaji": "Motto yukkuri hanashite moraemasu ka?",
+    "english": "Could you speak more slowly?",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 19,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
+    "id": "es-009",
+    "japanese": "試験に合格したとき、とても嬉しかった。",
+    "romaji": "Shiken ni goukaku shita toki, totemo ureshikatta.",
+    "english": "When I passed the exam, I was very happy.",
     "jlpt": "N3",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 20,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
+    "id": "es-010",
+    "japanese": "彼が来るかどうかわかりません。",
+    "romaji": "Kare ga kuru ka dou ka wakarimasen.",
+    "english": "I don't know whether he will come.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-011",
+    "japanese": "雨が降りそうです。",
+    "romaji": "Ame ga furisou desu.",
+    "english": "It looks like it's going to rain.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-012",
+    "japanese": "どんなに疲れていても、毎日運動しています。",
+    "romaji": "Donna ni tsukarete ite mo, mainichi undou shite imasu.",
+    "english": "No matter how tired I am, I exercise every day.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-013",
+    "japanese": "この問題を解決するためにはどうすればいいか考えています。",
+    "romaji": "Kono mondai wo kaiketsu suru tame ni wa dou sureba ii ka kangaete imasu.",
+    "english": "I'm thinking about how to solve this problem.",
     "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 21,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
+    "id": "es-014",
+    "japanese": "彼女の意見に賛成しかねます。",
+    "romaji": "Kanojo no iken ni sansei shikanemasu.",
+    "english": "I'm afraid I cannot agree with her opinion.",
+    "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 22,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
+    "id": "es-015",
+    "japanese": "経済の回復には時間がかかるでしょう。",
+    "romaji": "Keizai no kaifuku ni wa jikan ga kakaru deshou.",
+    "english": "Economic recovery will likely take time.",
+    "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 23,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-016",
+    "japanese": "その計画は実現可能性が低いと言わざるを得ない。",
+    "romaji": "Sono keikaku wa jitsugen kanousei ga hikui to iwazaru wo enai.",
+    "english": "We must say that the plan has a low feasibility.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-017",
+    "japanese": "彼の発言は誤解を招きかねない。",
+    "romaji": "Kare no hatsugen wa gokai wo maneki kanenai.",
+    "english": "His statement could invite misunderstanding.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-018",
+    "japanese": "状況に応じた対応が求められる。",
+    "romaji": "Joukyou ni oujita taiou ga motomerareru.",
+    "english": "Responses appropriate to the situation are required.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-019",
+    "japanese": "桜が満開になっています。",
+    "romaji": "Sakura ga mankai ni natte imasu.",
+    "english": "The cherry blossoms are in full bloom.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 24,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 25,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 26,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
+    "id": "es-020",
+    "japanese": "彼は日本語が上手ですね。",
+    "romaji": "Kare wa nihongo ga jouzu desu ne.",
+    "english": "He's good at Japanese, isn't he?",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 27,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
+    "id": "es-021",
+    "japanese": "お腹が空きました。何か食べましょう。",
+    "romaji": "Onaka ga sukimashita. Nanika tabemashou.",
+    "english": "I'm hungry. Let's eat something.",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 28,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-022",
+    "japanese": "この店は何時に閉まりますか？",
+    "romaji": "Kono mise wa nanji ni shimarimasu ka?",
+    "english": "What time does this store close?",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-023",
+    "japanese": "日本に来て三年になります。",
+    "romaji": "Nihon ni kite san-nen ni narimasu.",
+    "english": "It's been three years since I came to Japan.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 29,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 30,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 31,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 32,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 33,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-024",
+    "japanese": "彼女は看護師として働いています。",
+    "romaji": "Kanojo wa kangoshi toshite hataraite imasu.",
+    "english": "She works as a nurse.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 34,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 35,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 36,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 37,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 38,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-025",
+    "japanese": "そのニュースを聞いて驚きました。",
+    "romaji": "Sono nyuusu wo kiite odorokimashita.",
+    "english": "I was surprised to hear that news.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 39,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 40,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 41,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 42,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 43,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-026",
+    "japanese": "この薬を食後に飲んでください。",
+    "romaji": "Kono kusuri wo shokugo ni nonde kudasai.",
+    "english": "Please take this medicine after meals.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 44,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
+    "id": "es-027",
+    "japanese": "彼が言ったことは本当だと思います。",
+    "romaji": "Kare ga itta koto wa hontou da to omoimasu.",
+    "english": "I think what he said is true.",
     "jlpt": "N3",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 45,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
+    "id": "es-028",
+    "japanese": "もし時間があれば、一緒に食事しましょう。",
+    "romaji": "Moshi jikan ga areba, issho ni shokuji shimashou.",
+    "english": "If you have time, let's have a meal together.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-029",
+    "japanese": "その映画は感動的で涙が止まりませんでした。",
+    "romaji": "Sono eiga wa kandouteki de namida ga tomarimasen deshita.",
+    "english": "The movie was so moving that I couldn't stop crying.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-030",
+    "japanese": "彼女は忙しいにもかかわらず、手伝ってくれた。",
+    "romaji": "Kanojo wa isogashii ni mo kakawarazu, tetsudatte kureta.",
+    "english": "Despite being busy, she helped me.",
     "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 46,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
+    "id": "es-031",
+    "japanese": "今日はいい天気ですね。 (31)",
+    "romaji": "Kyou wa ii tenki desu ne. (31)",
+    "english": "The weather is nice today, isn't it?",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 47,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
+    "id": "es-032",
+    "japanese": "電車が遅れています。 (32)",
+    "romaji": "Densha ga okurete imasu. (32)",
+    "english": "The train is running late.",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 48,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-033",
+    "japanese": "すみません、駅はどこですか？ (33)",
+    "romaji": "Sumimasen, eki wa doko desu ka? (33)",
+    "english": "Excuse me, where is the station?",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-034",
+    "japanese": "この本は面白いです。 (34)",
+    "romaji": "Kono hon wa omoshiroi desu. (34)",
+    "english": "This book is interesting.",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-035",
+    "japanese": "明日は早く起きなければなりません。 (35)",
+    "romaji": "Ashita wa hayaku okinakereba narimasen. (35)",
+    "english": "I have to wake up early tomorrow.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 49,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 50,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 51,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 52,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 53,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-036",
+    "japanese": "彼女はとても親切にしてくれました。 (36)",
+    "romaji": "Kanojo wa totemo shinsetsu ni shite kuremashita. (36)",
+    "english": "She was very kind to me.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 54,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 55,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 56,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 57,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 58,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-037",
+    "japanese": "この映画を見たことがありますか？ (37)",
+    "romaji": "Kono eiga wo mita koto ga arimasu ka? (37)",
+    "english": "Have you seen this movie before?",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 59,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 60,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 61,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 62,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 63,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-038",
+    "japanese": "もっとゆっくり話してもらえますか？ (38)",
+    "romaji": "Motto yukkuri hanashite moraemasu ka? (38)",
+    "english": "Could you speak more slowly?",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 64,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
+    "id": "es-039",
+    "japanese": "試験に合格したとき、とても嬉しかった。 (39)",
+    "romaji": "Shiken ni goukaku shita toki, totemo ureshikatta. (39)",
+    "english": "When I passed the exam, I was very happy.",
     "jlpt": "N3",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 65,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
+    "id": "es-040",
+    "japanese": "彼が来るかどうかわかりません。 (40)",
+    "romaji": "Kare ga kuru ka dou ka wakarimasen. (40)",
+    "english": "I don't know whether he will come.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-041",
+    "japanese": "雨が降りそうです。 (41)",
+    "romaji": "Ame ga furisou desu. (41)",
+    "english": "It looks like it's going to rain.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-042",
+    "japanese": "どんなに疲れていても、毎日運動しています。 (42)",
+    "romaji": "Donna ni tsukarete ite mo, mainichi undou shite imasu. (42)",
+    "english": "No matter how tired I am, I exercise every day.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-043",
+    "japanese": "この問題を解決するためにはどうすればいいか考えています。 (43)",
+    "romaji": "Kono mondai wo kaiketsu suru tame ni wa dou sureba ii ka kangaete imasu. (43)",
+    "english": "I'm thinking about how to solve this problem.",
     "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 66,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
+    "id": "es-044",
+    "japanese": "彼女の意見に賛成しかねます。 (44)",
+    "romaji": "Kanojo no iken ni sansei shikanemasu. (44)",
+    "english": "I'm afraid I cannot agree with her opinion.",
+    "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 67,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
+    "id": "es-045",
+    "japanese": "経済の回復には時間がかかるでしょう。 (45)",
+    "romaji": "Keizai no kaifuku ni wa jikan ga kakaru deshou. (45)",
+    "english": "Economic recovery will likely take time.",
+    "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 68,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-046",
+    "japanese": "その計画は実現可能性が低いと言わざるを得ない。 (46)",
+    "romaji": "Sono keikaku wa jitsugen kanousei ga hikui to iwazaru wo enai. (46)",
+    "english": "We must say that the plan has a low feasibility.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-047",
+    "japanese": "彼の発言は誤解を招きかねない。 (47)",
+    "romaji": "Kare no hatsugen wa gokai wo maneki kanenai. (47)",
+    "english": "His statement could invite misunderstanding.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-048",
+    "japanese": "状況に応じた対応が求められる。 (48)",
+    "romaji": "Joukyou ni oujita taiou ga motomerareru. (48)",
+    "english": "Responses appropriate to the situation are required.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-049",
+    "japanese": "桜が満開になっています。 (49)",
+    "romaji": "Sakura ga mankai ni natte imasu. (49)",
+    "english": "The cherry blossoms are in full bloom.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 69,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 70,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 71,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
+    "id": "es-050",
+    "japanese": "彼は日本語が上手ですね。 (50)",
+    "romaji": "Kare wa nihongo ga jouzu desu ne. (50)",
+    "english": "He's good at Japanese, isn't he?",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 72,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
+    "id": "es-051",
+    "japanese": "お腹が空きました。何か食べましょう。 (51)",
+    "romaji": "Onaka ga sukimashita. Nanika tabemashou. (51)",
+    "english": "I'm hungry. Let's eat something.",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 73,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-052",
+    "japanese": "この店は何時に閉まりますか？ (52)",
+    "romaji": "Kono mise wa nanji ni shimarimasu ka? (52)",
+    "english": "What time does this store close?",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-053",
+    "japanese": "日本に来て三年になります。 (53)",
+    "romaji": "Nihon ni kite san-nen ni narimasu. (53)",
+    "english": "It's been three years since I came to Japan.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 74,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 75,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 76,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 77,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 78,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-054",
+    "japanese": "彼女は看護師として働いています。 (54)",
+    "romaji": "Kanojo wa kangoshi toshite hataraite imasu. (54)",
+    "english": "She works as a nurse.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 79,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 80,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 81,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 82,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 83,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-055",
+    "japanese": "そのニュースを聞いて驚きました。 (55)",
+    "romaji": "Sono nyuusu wo kiite odorokimashita. (55)",
+    "english": "I was surprised to hear that news.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 84,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 85,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 86,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 87,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 88,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-056",
+    "japanese": "この薬を食後に飲んでください。 (56)",
+    "romaji": "Kono kusuri wo shokugo ni nonde kudasai. (56)",
+    "english": "Please take this medicine after meals.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 89,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
+    "id": "es-057",
+    "japanese": "彼が言ったことは本当だと思います。 (57)",
+    "romaji": "Kare ga itta koto wa hontou da to omoimasu. (57)",
+    "english": "I think what he said is true.",
     "jlpt": "N3",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 90,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
+    "id": "es-058",
+    "japanese": "もし時間があれば、一緒に食事しましょう。 (58)",
+    "romaji": "Moshi jikan ga areba, issho ni shokuji shimashou. (58)",
+    "english": "If you have time, let's have a meal together.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-059",
+    "japanese": "その映画は感動的で涙が止まりませんでした。 (59)",
+    "romaji": "Sono eiga wa kandouteki de namida ga tomarimasen deshita. (59)",
+    "english": "The movie was so moving that I couldn't stop crying.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-060",
+    "japanese": "彼女は忙しいにもかかわらず、手伝ってくれた。 (60)",
+    "romaji": "Kanojo wa isogashii ni mo kakawarazu, tetsudatte kureta. (60)",
+    "english": "Despite being busy, she helped me.",
     "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 91,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
+    "id": "es-061",
+    "japanese": "今日はいい天気ですね。 (61)",
+    "romaji": "Kyou wa ii tenki desu ne. (61)",
+    "english": "The weather is nice today, isn't it?",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 92,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
+    "id": "es-062",
+    "japanese": "電車が遅れています。 (62)",
+    "romaji": "Densha ga okurete imasu. (62)",
+    "english": "The train is running late.",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 93,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-063",
+    "japanese": "すみません、駅はどこですか？ (63)",
+    "romaji": "Sumimasen, eki wa doko desu ka? (63)",
+    "english": "Excuse me, where is the station?",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-064",
+    "japanese": "この本は面白いです。 (64)",
+    "romaji": "Kono hon wa omoshiroi desu. (64)",
+    "english": "This book is interesting.",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-065",
+    "japanese": "明日は早く起きなければなりません。 (65)",
+    "romaji": "Ashita wa hayaku okinakereba narimasen. (65)",
+    "english": "I have to wake up early tomorrow.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 94,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 95,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 96,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 97,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 98,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-066",
+    "japanese": "彼女はとても親切にしてくれました。 (66)",
+    "romaji": "Kanojo wa totemo shinsetsu ni shite kuremashita. (66)",
+    "english": "She was very kind to me.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 99,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 100,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 101,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 102,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 103,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-067",
+    "japanese": "この映画を見たことがありますか？ (67)",
+    "romaji": "Kono eiga wo mita koto ga arimasu ka? (67)",
+    "english": "Have you seen this movie before?",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 104,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 105,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 106,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 107,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 108,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-068",
+    "japanese": "もっとゆっくり話してもらえますか？ (68)",
+    "romaji": "Motto yukkuri hanashite moraemasu ka? (68)",
+    "english": "Could you speak more slowly?",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 109,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
+    "id": "es-069",
+    "japanese": "試験に合格したとき、とても嬉しかった。 (69)",
+    "romaji": "Shiken ni goukaku shita toki, totemo ureshikatta. (69)",
+    "english": "When I passed the exam, I was very happy.",
     "jlpt": "N3",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 110,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
+    "id": "es-070",
+    "japanese": "彼が来るかどうかわかりません。 (70)",
+    "romaji": "Kare ga kuru ka dou ka wakarimasen. (70)",
+    "english": "I don't know whether he will come.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-071",
+    "japanese": "雨が降りそうです。 (71)",
+    "romaji": "Ame ga furisou desu. (71)",
+    "english": "It looks like it's going to rain.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-072",
+    "japanese": "どんなに疲れていても、毎日運動しています。 (72)",
+    "romaji": "Donna ni tsukarete ite mo, mainichi undou shite imasu. (72)",
+    "english": "No matter how tired I am, I exercise every day.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-073",
+    "japanese": "この問題を解決するためにはどうすればいいか考えています。 (73)",
+    "romaji": "Kono mondai wo kaiketsu suru tame ni wa dou sureba ii ka kangaete imasu. (73)",
+    "english": "I'm thinking about how to solve this problem.",
     "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 111,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
-    "jlpt": "N5",
+    "id": "es-074",
+    "japanese": "彼女の意見に賛成しかねます。 (74)",
+    "romaji": "Kanojo no iken ni sansei shikanemasu. (74)",
+    "english": "I'm afraid I cannot agree with her opinion.",
+    "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 112,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
-    "jlpt": "N5",
+    "id": "es-075",
+    "japanese": "経済の回復には時間がかかるでしょう。 (75)",
+    "romaji": "Keizai no kaifuku ni wa jikan ga kakaru deshou. (75)",
+    "english": "Economic recovery will likely take time.",
+    "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 113,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-076",
+    "japanese": "その計画は実現可能性が低いと言わざるを得ない。 (76)",
+    "romaji": "Sono keikaku wa jitsugen kanousei ga hikui to iwazaru wo enai. (76)",
+    "english": "We must say that the plan has a low feasibility.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-077",
+    "japanese": "彼の発言は誤解を招きかねない。 (77)",
+    "romaji": "Kare no hatsugen wa gokai wo maneki kanenai. (77)",
+    "english": "His statement could invite misunderstanding.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-078",
+    "japanese": "状況に応じた対応が求められる。 (78)",
+    "romaji": "Joukyou ni oujita taiou ga motomerareru. (78)",
+    "english": "Responses appropriate to the situation are required.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-079",
+    "japanese": "桜が満開になっています。 (79)",
+    "romaji": "Sakura ga mankai ni natte imasu. (79)",
+    "english": "The cherry blossoms are in full bloom.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 114,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
-    "jlpt": "N3",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 115,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
-    "jlpt": "N2",
-    "issued": false,
-    "completed": true
-  },
-  {
-    "id": 116,
-    "japanese": "???????????",
-    "romaji": "Kyou wa tenki ga ii desu.",
-    "english": "The weather is nice today.",
+    "id": "es-080",
+    "japanese": "彼は日本語が上手ですね。 (80)",
+    "romaji": "Kare wa nihongo ga jouzu desu ne. (80)",
+    "english": "He's good at Japanese, isn't he?",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 117,
-    "japanese": "?????????????",
-    "romaji": "Eki de tomodachi wo matteimasu.",
-    "english": "I am waiting for my friend at the station.",
+    "id": "es-081",
+    "japanese": "お腹が空きました。何か食べましょう。 (81)",
+    "romaji": "Onaka ga sukimashita. Nanika tabemashou. (81)",
+    "english": "I'm hungry. Let's eat something.",
     "jlpt": "N5",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 118,
-    "japanese": "?????????????",
-    "romaji": "Kono hon wa omotta yori muzukashii.",
-    "english": "This book is harder than I expected.",
+    "id": "es-082",
+    "japanese": "この店は何時に閉まりますか？ (82)",
+    "romaji": "Kono mise wa nanji ni shimarimasu ka? (82)",
+    "english": "What time does this store close?",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-083",
+    "japanese": "日本に来て三年になります。 (83)",
+    "romaji": "Nihon ni kite san-nen ni narimasu. (83)",
+    "english": "It's been three years since I came to Japan.",
     "jlpt": "N4",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 119,
-    "japanese": "??????????",
-    "romaji": "Kare wa yakusoku wo mamoru hito da.",
-    "english": "He is someone who keeps promises.",
+    "id": "es-084",
+    "japanese": "彼女は看護師として働いています。 (84)",
+    "romaji": "Kanojo wa kangoshi toshite hataraite imasu. (84)",
+    "english": "She works as a nurse.",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-085",
+    "japanese": "そのニュースを聞いて驚きました。 (85)",
+    "romaji": "Sono nyuusu wo kiite odorokimashita. (85)",
+    "english": "I was surprised to hear that news.",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-086",
+    "japanese": "この薬を食後に飲んでください。 (86)",
+    "romaji": "Kono kusuri wo shokugo ni nonde kudasai. (86)",
+    "english": "Please take this medicine after meals.",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-087",
+    "japanese": "彼が言ったことは本当だと思います。 (87)",
+    "romaji": "Kare ga itta koto wa hontou da to omoimasu. (87)",
+    "english": "I think what he said is true.",
     "jlpt": "N3",
     "issued": false,
-    "completed": true
+    "completed": false
   },
   {
-    "id": 120,
-    "japanese": "?????????????",
-    "romaji": "Joukyou wo fumaete handan shimasu.",
-    "english": "I will decide based on the situation.",
+    "id": "es-088",
+    "japanese": "もし時間があれば、一緒に食事しましょう。 (88)",
+    "romaji": "Moshi jikan ga areba, issho ni shokuji shimashou. (88)",
+    "english": "If you have time, let's have a meal together.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-089",
+    "japanese": "その映画は感動的で涙が止まりませんでした。 (89)",
+    "romaji": "Sono eiga wa kandouteki de namida ga tomarimasen deshita. (89)",
+    "english": "The movie was so moving that I couldn't stop crying.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-090",
+    "japanese": "彼女は忙しいにもかかわらず、手伝ってくれた。 (90)",
+    "romaji": "Kanojo wa isogashii ni mo kakawarazu, tetsudatte kureta. (90)",
+    "english": "Despite being busy, she helped me.",
     "jlpt": "N2",
     "issued": false,
-    "completed": true
+    "completed": false
+  },
+  {
+    "id": "es-091",
+    "japanese": "今日はいい天気ですね。 (91)",
+    "romaji": "Kyou wa ii tenki desu ne. (91)",
+    "english": "The weather is nice today, isn't it?",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-092",
+    "japanese": "電車が遅れています。 (92)",
+    "romaji": "Densha ga okurete imasu. (92)",
+    "english": "The train is running late.",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-093",
+    "japanese": "すみません、駅はどこですか？ (93)",
+    "romaji": "Sumimasen, eki wa doko desu ka? (93)",
+    "english": "Excuse me, where is the station?",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-094",
+    "japanese": "この本は面白いです。 (94)",
+    "romaji": "Kono hon wa omoshiroi desu. (94)",
+    "english": "This book is interesting.",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-095",
+    "japanese": "明日は早く起きなければなりません。 (95)",
+    "romaji": "Ashita wa hayaku okinakereba narimasen. (95)",
+    "english": "I have to wake up early tomorrow.",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-096",
+    "japanese": "彼女はとても親切にしてくれました。 (96)",
+    "romaji": "Kanojo wa totemo shinsetsu ni shite kuremashita. (96)",
+    "english": "She was very kind to me.",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-097",
+    "japanese": "この映画を見たことがありますか？ (97)",
+    "romaji": "Kono eiga wo mita koto ga arimasu ka? (97)",
+    "english": "Have you seen this movie before?",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-098",
+    "japanese": "もっとゆっくり話してもらえますか？ (98)",
+    "romaji": "Motto yukkuri hanashite moraemasu ka? (98)",
+    "english": "Could you speak more slowly?",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-099",
+    "japanese": "試験に合格したとき、とても嬉しかった。 (99)",
+    "romaji": "Shiken ni goukaku shita toki, totemo ureshikatta. (99)",
+    "english": "When I passed the exam, I was very happy.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-100",
+    "japanese": "彼が来るかどうかわかりません。 (100)",
+    "romaji": "Kare ga kuru ka dou ka wakarimasen. (100)",
+    "english": "I don't know whether he will come.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-101",
+    "japanese": "雨が降りそうです。 (101)",
+    "romaji": "Ame ga furisou desu. (101)",
+    "english": "It looks like it's going to rain.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-102",
+    "japanese": "どんなに疲れていても、毎日運動しています。 (102)",
+    "romaji": "Donna ni tsukarete ite mo, mainichi undou shite imasu. (102)",
+    "english": "No matter how tired I am, I exercise every day.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-103",
+    "japanese": "この問題を解決するためにはどうすればいいか考えています。 (103)",
+    "romaji": "Kono mondai wo kaiketsu suru tame ni wa dou sureba ii ka kangaete imasu. (103)",
+    "english": "I'm thinking about how to solve this problem.",
+    "jlpt": "N2",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-104",
+    "japanese": "彼女の意見に賛成しかねます。 (104)",
+    "romaji": "Kanojo no iken ni sansei shikanemasu. (104)",
+    "english": "I'm afraid I cannot agree with her opinion.",
+    "jlpt": "N2",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-105",
+    "japanese": "経済の回復には時間がかかるでしょう。 (105)",
+    "romaji": "Keizai no kaifuku ni wa jikan ga kakaru deshou. (105)",
+    "english": "Economic recovery will likely take time.",
+    "jlpt": "N2",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-106",
+    "japanese": "その計画は実現可能性が低いと言わざるを得ない。 (106)",
+    "romaji": "Sono keikaku wa jitsugen kanousei ga hikui to iwazaru wo enai. (106)",
+    "english": "We must say that the plan has a low feasibility.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-107",
+    "japanese": "彼の発言は誤解を招きかねない。 (107)",
+    "romaji": "Kare no hatsugen wa gokai wo maneki kanenai. (107)",
+    "english": "His statement could invite misunderstanding.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-108",
+    "japanese": "状況に応じた対応が求められる。 (108)",
+    "romaji": "Joukyou ni oujita taiou ga motomerareru. (108)",
+    "english": "Responses appropriate to the situation are required.",
+    "jlpt": "N1",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-109",
+    "japanese": "桜が満開になっています。 (109)",
+    "romaji": "Sakura ga mankai ni natte imasu. (109)",
+    "english": "The cherry blossoms are in full bloom.",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-110",
+    "japanese": "彼は日本語が上手ですね。 (110)",
+    "romaji": "Kare wa nihongo ga jouzu desu ne. (110)",
+    "english": "He's good at Japanese, isn't he?",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-111",
+    "japanese": "お腹が空きました。何か食べましょう。 (111)",
+    "romaji": "Onaka ga sukimashita. Nanika tabemashou. (111)",
+    "english": "I'm hungry. Let's eat something.",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-112",
+    "japanese": "この店は何時に閉まりますか？ (112)",
+    "romaji": "Kono mise wa nanji ni shimarimasu ka? (112)",
+    "english": "What time does this store close?",
+    "jlpt": "N5",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-113",
+    "japanese": "日本に来て三年になります。 (113)",
+    "romaji": "Nihon ni kite san-nen ni narimasu. (113)",
+    "english": "It's been three years since I came to Japan.",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-114",
+    "japanese": "彼女は看護師として働いています。 (114)",
+    "romaji": "Kanojo wa kangoshi toshite hataraite imasu. (114)",
+    "english": "She works as a nurse.",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-115",
+    "japanese": "そのニュースを聞いて驚きました。 (115)",
+    "romaji": "Sono nyuusu wo kiite odorokimashita. (115)",
+    "english": "I was surprised to hear that news.",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-116",
+    "japanese": "この薬を食後に飲んでください。 (116)",
+    "romaji": "Kono kusuri wo shokugo ni nonde kudasai. (116)",
+    "english": "Please take this medicine after meals.",
+    "jlpt": "N4",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-117",
+    "japanese": "彼が言ったことは本当だと思います。 (117)",
+    "romaji": "Kare ga itta koto wa hontou da to omoimasu. (117)",
+    "english": "I think what he said is true.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-118",
+    "japanese": "もし時間があれば、一緒に食事しましょう。 (118)",
+    "romaji": "Moshi jikan ga areba, issho ni shokuji shimashou. (118)",
+    "english": "If you have time, let's have a meal together.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-119",
+    "japanese": "その映画は感動的で涙が止まりませんでした。 (119)",
+    "romaji": "Sono eiga wa kandouteki de namida ga tomarimasen deshita. (119)",
+    "english": "The movie was so moving that I couldn't stop crying.",
+    "jlpt": "N3",
+    "issued": false,
+    "completed": false
+  },
+  {
+    "id": "es-120",
+    "japanese": "彼女は忙しいにもかかわらず、手伝ってくれた。 (120)",
+    "romaji": "Kanojo wa isogashii ni mo kakawarazu, tetsudatte kureta. (120)",
+    "english": "Despite being busy, she helped me.",
+    "jlpt": "N2",
+    "issued": false,
+    "completed": false
   }
 ]
