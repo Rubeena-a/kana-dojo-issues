@@ -396,9 +396,7 @@ jobs:
               
               const tmpl = t.theme;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{name}', item.name);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{name}', item.name));
               
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle, { step2: tmpl.step2, step3: tmpl.step3 }).map((instr, i) => `${i + 1}. ${instr.replace(/{name}/g, item.name)}`);
               
@@ -451,9 +449,7 @@ jobs:
               
               const tmpl = t.fact;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
               
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               const codeBlock = `\`\`\`json\n"${item.fact}"\n\`\`\``;
@@ -511,9 +507,7 @@ jobs:
               
               const tmpl = t.proverb;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
               
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               
@@ -567,9 +561,7 @@ jobs:
 
               const tmpl = t.haiku;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
 
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               const codeBlock = `\`\`\`json\n{\n  "japanese": "${item.japanese}",\n  "romaji": "${item.romaji}",\n  "english": "${item.english}",\n  "poet": "${item.poet}",\n  "season": "${item.season}",\n  "kigo": "${item.kigo}",\n  "notes": "${item.notes}"\n}\n\`\`\``;
@@ -634,9 +626,7 @@ jobs:
 
               const tmpl = t.trivia;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
 
               const difficultyFile = triviaSourcePaths[item.difficulty] || triviaSourcePaths.easy;
               const instructions = t.buildInstructions(tmpl.file.replace('{difficultyFile}', difficultyFile), tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
@@ -689,9 +679,7 @@ jobs:
 
               const tmpl = t.grammar;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
 
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               const codeBlock = `\`\`\`json\n"${item.text}"\n\`\`\``;
@@ -755,9 +743,7 @@ jobs:
 
               const tmpl = t.animeQuote;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
 
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               const codeBlock = `\`\`\`json\n{\n  \"japanese\": \"${item.japanese}\",\n  \"romaji\": \"${item.romaji}\",\n  \"english\": \"${item.english}\",\n  \"anime\": \"${item.anime}\",\n  \"character\": \"${item.character}\"\n}\n\`\`\``;
@@ -814,9 +800,7 @@ jobs:
 
               const tmpl = t.videoGameQuote;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
 
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               const codeBlock = `\`\`\`json\n{\n  "japanese": "${item.japanese}",\n  "romaji": "${item.romaji}",\n  "english": "${item.english}",\n  "game": "${item.game}",\n  "character": "${item.character}"\n}\n\`\`\``;
@@ -870,9 +854,7 @@ jobs:
 
               const tmpl = t.idiom;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
 
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               const codeBlock = `\`\`\`json\n{\n  "japanese": "${item.japanese}",\n  "romaji": "${item.romaji}",\n  "english": "${item.english}",\n  "meaning": "${item.meaning}"\n}\n\`\`\``;
@@ -926,9 +908,7 @@ jobs:
 
               const tmpl = t.regionalDialect;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
 
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               const codeBlock = `\`\`\`json\n{\n  "dialect": "${item.dialect}",\n  "standardJapanese": "${item.standardJapanese}",\n  "english": "${item.english}",\n  "region": "${item.region}",\n  "note": "${item.note}"\n}\n\`\`\``;
@@ -980,9 +960,7 @@ jobs:
 
               const tmpl = t.falseFriend;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
 
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               const codeBlock = `\`\`\`json\n{\n  "termA": "${item.termA}",\n  "termB": "${item.termB}",\n  "explanation": "${item.explanation}",\n  "example": "${item.example}"\n}\n\`\`\``;
@@ -1034,9 +1012,7 @@ jobs:
 
               const tmpl = t.culturalEtiquette;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
 
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               const codeBlock = `\`\`\`json\n{\n  "situation": "${item.situation}",\n  "do": "${item.do}",\n  "dont": "${item.dont}",\n  "note": "${item.note}"\n}\n\`\`\``;
@@ -1088,9 +1064,7 @@ jobs:
 
               const tmpl = t.exampleSentence;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
 
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               const codeBlock = `\`\`\`json\n{\n  "japanese": "${item.japanese}",\n  "romaji": "${item.romaji}",\n  "english": "${item.english}",\n  "jlpt": "${item.jlpt}"\n}\n\`\`\``;
@@ -1142,9 +1116,7 @@ jobs:
 
               const tmpl = t.commonMistake;
               const common = t.common;
-              issueTitle = tmpl.title
-                .replace('{emoji}', pickEmoji())
-                .replace('{id}', item.id);
+              issueTitle = t.buildIssueTitle(pickEmoji(), tmpl.title.replace('{id}', item.id));
 
               const instructions = t.buildInstructions(tmpl.file, tmpl.itemType, tmpl.prTitle).map((instr, i) => `${i + 1}. ${instr.replace(/{id}/g, item.id)}`);
               const codeBlock = `\`\`\`json\n{\n  "wrong": "${item.wrong}",\n  "correct": "${item.correct}",\n  "explanation": "${item.explanation}"\n}\n\`\`\``;

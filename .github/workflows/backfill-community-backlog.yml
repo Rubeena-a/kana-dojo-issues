@@ -97,7 +97,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add Japan Fact #')) {
+              if (title.includes('Add Japan Fact #') || title.includes('Add new Japan Fact #')) {
                 const factIdMatch = title.match(/#(\d+)/);
                 if (factIdMatch) {
                   const factId = parseInt(factIdMatch[1]);
@@ -112,7 +112,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add Japanese Proverb #')) {
+              if (title.includes('Add Japanese Proverb #') || title.includes('Add new Japanese Proverb #')) {
                 const proverbIdMatch = title.match(/#(\d+)/);
                 if (proverbIdMatch) {
                   const proverbId = parseInt(proverbIdMatch[1]);
@@ -127,7 +127,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add Classic Japanese Haiku #') || title.includes('Add Japanese Haiku #')) {
+              if (title.includes('Add Classic Japanese Haiku #') || title.includes('Add Japanese Haiku #') || title.includes('Add new Japanese Haiku #')) {
                 const haikuIdMatch = title.match(/#(\d+)/);
                 if (haikuIdMatch) {
                   const haikuId = parseInt(haikuIdMatch[1]);
@@ -142,7 +142,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add New Trivia Question #') || title.includes('Add Trivia Question #')) {
+              if (title.includes('Add New Trivia Question #') || title.includes('Add Trivia Question #') || title.includes('Add new Trivia Question #')) {
                 const triviaIdMatch = title.match(/#(\d+)/);
                 if (triviaIdMatch) {
                   const triviaId = parseInt(triviaIdMatch[1]);
@@ -157,7 +157,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add New Grammar Point #') || title.includes('Add Grammar Point #')) {
+              if (title.includes('Add New Grammar Point #') || title.includes('Add Grammar Point #') || title.includes('Add new Grammar Point #')) {
                 const grammarIdMatch = title.match(/#(\d+)/);
                 if (grammarIdMatch) {
                   const grammarId = parseInt(grammarIdMatch[1]);
@@ -172,7 +172,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add New Japanese Idiom #') || title.includes('Add Japanese Idiom #')) {
+              if (title.includes('Add New Japanese Idiom #') || title.includes('Add Japanese Idiom #') || title.includes('Add new Japanese Idiom #')) {
                 const idiomIdMatch = title.match(/#(\d+)/);
                 if (idiomIdMatch) {
                   const idiomId = parseInt(idiomIdMatch[1]);
@@ -187,7 +187,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add Regional Dialect Entry #') || title.includes('Add Dialect Entry #')) {
+              if (title.includes('Add Regional Dialect Entry #') || title.includes('Add Dialect Entry #') || title.includes('Add new Dialect Entry #')) {
                 const dialectIdMatch = title.match(/#(\d+)/);
                 if (dialectIdMatch) {
                   const dialectId = parseInt(dialectIdMatch[1]);
@@ -202,7 +202,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add Japanese False Friend #') || title.includes('Add False Friend Pair #')) {
+              if (title.includes('Add Japanese False Friend #') || title.includes('Add False Friend Pair #') || title.includes('Add new False Friend Pair #')) {
                 const idMatch = title.match(/#(\d+)/);
                 if (idMatch) {
                   const id = parseInt(idMatch[1]);
@@ -217,7 +217,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add Japanese Cultural Etiquette Tip #') || title.includes('Add Etiquette Tip #')) {
+              if (title.includes('Add Japanese Cultural Etiquette Tip #') || title.includes('Add Etiquette Tip #') || title.includes('Add new Etiquette Tip #')) {
                 const idMatch = title.match(/#(\d+)/);
                 if (idMatch) {
                   const id = parseInt(idMatch[1]);
@@ -232,7 +232,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add Japanese Example Sentence #') || title.includes('Add Example Sentence #')) {
+              if (title.includes('Add Japanese Example Sentence #') || title.includes('Add Example Sentence #') || title.includes('Add new Example Sentence #')) {
                 const idMatch = title.match(/#(\d+)/);
                 if (idMatch) {
                   const id = parseInt(idMatch[1]);
@@ -247,7 +247,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add Common Japanese Learner Mistake #') || title.includes('Add Learner Mistake #')) {
+              if (title.includes('Add Common Japanese Learner Mistake #') || title.includes('Add Learner Mistake #') || title.includes('Add new Learner Mistake #')) {
                 const idMatch = title.match(/#(\d+)/);
                 if (idMatch) {
                   const id = parseInt(idMatch[1]);
@@ -262,7 +262,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add Famous Japanese Video Game Quote #') || title.includes('Add Video Game Quote #')) {
+              if (title.includes('Add Famous Japanese Video Game Quote #') || title.includes('Add Video Game Quote #') || title.includes('Add new Video Game Quote #')) {
                 const idMatch = title.match(/#(\d+)/);
                 if (idMatch) {
                   const id = parseInt(idMatch[1]);
@@ -277,7 +277,7 @@ jobs:
                 return;
               }
 
-              if (title.includes('Add Famous Anime Quote #') || title.includes('Add Anime Quote #')) {
+              if (title.includes('Add Famous Anime Quote #') || title.includes('Add Anime Quote #') || title.includes('Add new Anime Quote #')) {
                 const quoteIdMatch = title.match(/#(\d+)/);
                 if (quoteIdMatch) {
                   const quoteId = parseInt(quoteIdMatch[1]);
