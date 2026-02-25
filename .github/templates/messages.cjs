@@ -3,7 +3,7 @@
  * Edit these messages without touching the workflow logic
  */
 
-const issueTitleAdjectives = require('./issue-title-adjectives.cjs');
+// const issueTitleAdjectives = require('./issue-title-adjectives.cjs');
 
 module.exports = {
   // =============================================================================
@@ -214,7 +214,7 @@ module.exports = {
   issueCreation: {
     // Shared constants and helpers
     common: {
-      titleTemplate: '[Good First Issue]: Add new {issueType} — Beginner-Friendly Contribution (good-first-issue)',
+      titleTemplate: '[Good First Issue]: Add new {issueType} - Beginner-Friendly Contribution (good-first-issue)',
       difficulty: 'Easy (good first issue!)',
       instructionsHeader: '### 📝 Instructions',
       footer:
@@ -322,7 +322,7 @@ module.exports = {
       step3: 'Make sure the JSON stays valid (add a comma after the previous last entry if needed)',
     },
     fact: {
-      title: 'Japan Fact #{id}',
+      title: 'Japan Fact {id}',
       adjectives: issueTitleAdjectives.fact,
       header: '## 🎋 Add New Japan Fact',
       category: 'Community Contribution - Fun Fact',
@@ -336,7 +336,7 @@ module.exports = {
       prTitle: 'content: add new japan fact',
     },
     proverb: {
-      title: 'Japanese Proverb #{id}',
+      title: 'Japanese Proverb {id}',
       adjectives: issueTitleAdjectives.proverb,
       header: '## 🎌 Add Japanese Proverb (ことわざ)',
       category: 'Community Contribution - Proverb',
@@ -349,7 +349,7 @@ module.exports = {
       prTitle: 'content: add new japanese proverb',
     },
     haiku: {
-      title: 'Japanese Haiku #{id}',
+      title: 'Japanese Haiku {id}',
       adjectives: issueTitleAdjectives.haiku,
       header: '## Add Classic Japanese Haiku',
       category: 'Community Contribution - Haiku',
@@ -362,7 +362,7 @@ module.exports = {
       prTitle: 'content: add japanese haiku',
     },
     trivia: {
-      title: 'Trivia Question #{id}',
+      title: 'Trivia Question {id}',
       adjectives: issueTitleAdjectives.trivia,
       header: '## 🧠 Add New Trivia Question',
       category: 'Community Contribution - Trivia',
@@ -375,7 +375,7 @@ module.exports = {
       prTitle: 'content: add new trivia question',
     },
     grammar: {
-      title: 'Grammar Point #{id}',
+      title: 'Grammar Point {id}',
       adjectives: issueTitleAdjectives.grammar,
       header: '## 📖 Add New Grammar Point',
       category: 'Community Contribution - Grammar',
@@ -388,7 +388,7 @@ module.exports = {
       prTitle: 'content: add new grammar point',
     },
     idiom: {
-      title: 'Japanese Idiom #{id}',
+      title: 'Japanese Idiom {id}',
       adjectives: issueTitleAdjectives.idiom,
       header: '## Add New Japanese Idiom',
       category: 'Community Contribution - Idiom',
@@ -401,7 +401,7 @@ module.exports = {
       prTitle: 'content: add new japanese idiom',
     },
     regionalDialect: {
-      title: 'Dialect Entry #{id}',
+      title: 'Dialect Entry {id}',
       adjectives: issueTitleAdjectives.regionalDialect,
       header: '## Add New Regional Dialect Entry',
       category: 'Community Contribution - Regional Dialect',
@@ -414,7 +414,7 @@ module.exports = {
       prTitle: 'content: add new regional dialect entry',
     },
     falseFriend: {
-      title: 'False Friend Pair #{id}',
+      title: 'False Friend Pair {id}',
       adjectives: issueTitleAdjectives.falseFriend,
       header: '## Add Japanese False Friend',
       category: 'Community Contribution - False Friend',
@@ -427,7 +427,7 @@ module.exports = {
       prTitle: 'content: add new japanese false friend',
     },
     culturalEtiquette: {
-      title: 'Etiquette Tip #{id}',
+      title: 'Etiquette Tip {id}',
       adjectives: issueTitleAdjectives.culturalEtiquette,
       header: '## Add Japanese Cultural Etiquette Tip',
       category: 'Community Contribution - Cultural Etiquette',
@@ -440,7 +440,7 @@ module.exports = {
       prTitle: 'content: add new cultural etiquette tip',
     },
     exampleSentence: {
-      title: 'Example Sentence #{id}',
+      title: 'Example Sentence {id}',
       adjectives: issueTitleAdjectives.exampleSentence,
       header: '## Add Japanese Example Sentence',
       category: 'Community Contribution - Example Sentence',
@@ -453,7 +453,7 @@ module.exports = {
       prTitle: 'content: add new example sentence',
     },
     commonMistake: {
-      title: 'Learner Mistake #{id}',
+      title: 'Learner Mistake {id}',
       adjectives: issueTitleAdjectives.commonMistake,
       header: '## Add Common Japanese Learner Mistake',
       category: 'Community Contribution - Common Mistake',
@@ -466,7 +466,7 @@ module.exports = {
       prTitle: 'content: add new common mistake',
     },
     videoGameQuote: {
-      title: 'Video Game Quote #{id}',
+      title: 'Video Game Quote {id}',
       adjectives: issueTitleAdjectives.videoGameQuote,
       header: '## Add Famous Japanese Video Game Quote',
       category: 'Community Contribution - Video Game Quote',
@@ -479,7 +479,7 @@ module.exports = {
       prTitle: 'content: add video game quote',
     },
     animeQuote: {
-      title: 'Anime Quote #{id}',
+      title: 'Anime Quote {id}',
       adjectives: issueTitleAdjectives.animeQuote,
       header: '## 🎬 Add Famous Anime Quote',
       category: 'Community Contribution - Anime Quote',
