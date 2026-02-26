@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "wrong": "もし雨が降ります、行きません。",
+    "correct": "もし雨が降ったら、行きません。",
+    "explanation": "Conditional needs たら/なら etc. (Pattern set 5)"
+  }
+]
