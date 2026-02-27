@@ -219,42 +219,42 @@
     "id": 37,
     "fact": "Japanese business cards (meishi) are exchanged with both hands and a bow - placing one in your pocket immediately is considered disrespectful.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 38,
     "fact": "The word 'gaman' (我慢) means enduring the seemingly unbearable with patience and dignity - a core Japanese cultural value.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 39,
     "fact": "Japan has professional cuddlers you can hire to hold you while you nap - reflecting the country's epidemic of loneliness and touch starvation.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 40,
     "fact": "There are over 200 different KitKat flavors created for Japan including sake, wasabi, sweet potato, and cherry blossom.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 41,
     "fact": "The Japanese word 'yūgen' (幽玄) describes a profound awareness of the universe that triggers emotional responses too deep for words.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 42,
     "fact": "Japan's elderly population is so large that adult diapers outsell baby diapers - reflecting one of the world's fastest-aging societies.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 43,
     "fact": "There's a Japanese word 'betsu-bara' (別腹) meaning 'separate stomach' - the idea that there's always room for dessert even when full.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
