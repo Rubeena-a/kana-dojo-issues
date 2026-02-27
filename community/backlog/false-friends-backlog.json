@@ -42,7 +42,7 @@
     "example": "ライブでテンションが上がった。",
     "id": 5,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "termA": "バイキング (baikingu)",
@@ -69,7 +69,7 @@
     "example": "去年落ちた試験に今年リベンジする。",
     "id": 8,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "termA": "クレーム (kureemu)",
@@ -78,7 +78,7 @@
     "example": "お客様からクレームが届いた。",
     "id": 9,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "termA": "ナイーブ (naibu)",
@@ -95,7 +95,7 @@
     "explanation": "シール usually means sticker/label. (Set 1)",
     "example": "ノートにシールを貼った。",
     "id": 11,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
