@@ -303,31 +303,31 @@
     "id": 51,
     "fact": "There's a Japanese practice of 'honne and tatemae' - your true feelings (honne) versus your public facade (tatemae) - both are considered valid.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 52,
     "fact": "Japan's Nakizumo festival has sumo wrestlers compete to make babies cry first - crying is believed to ward off evil spirits.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 53,
     "fact": "The Japanese word 'shibui' (渋い) describes a subtle, unobtrusive beauty that grows on you over time - the opposite of flashy.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 54,
     "fact": "Japan has a highway that passes directly through a building in Osaka - the Gate Tower Building has floors 5-7 as a tunnel.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 55,
     "fact": "The concept of 'omotenashi' (おもてなし) is Japanese hospitality that anticipates needs before guests even realize them.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 56,
@@ -350,7 +350,7 @@
   {
     "id": 59,
     "fact": "The word 'sawari' (触り) in Japanese means both 'touch' and 'the most interesting part' - suggesting you save the best for touching.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
